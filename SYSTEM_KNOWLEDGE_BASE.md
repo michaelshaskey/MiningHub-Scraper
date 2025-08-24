@@ -1,0 +1,579 @@
+# Mining Projects Data Cleanup System - Comprehensive Knowledge Base
+
+## 🏗️ **System Architecture Overview**
+
+This system extracts, processes, and enriches mining project data from multiple sources to create a unified, CRM-ready dataset. It combines API data with web scraping to maximize data coverage.
+
+### **Core Components:**
+1. **Main Processor**: `mining_projects_refactored.py` - Orchestrates entire pipeline
+2. **Parallel Scraper**: `project_scraper_parallel_compact.py` - High-performance web scraping
+3. **Schema Validator**: `json_schema_validator.py` - Data integrity validation
+4. **Analysis Tool**: `map_endpoint_sniffer.py` - Map coordinate extraction (standalone)
+
+---
+
+## 📁 **File Structure & Purposes**
+
+### **Input Files (Required)**
+- `countries.json` - List of countries to process
+- `found_urls.xlsx` - Project and company URLs (2 sheets: Projects, Companies)
+
+### **Core Scripts**
+- `mining_projects_refactored.py` - **MAIN SCRIPT** - Run this for complete processing
+- `project_scraper_parallel_compact.py` - Parallel web scraper (called by main script)
+- `json_schema_validator.py` - Schema validation and transformation utilities
+
+### **Analysis Tools (Standalone)**
+- `map_endpoint_sniffer.py` - Map coordinate extraction analysis
+- `json_schema_documentation.md` - Schema reference documentation
+
+### **Output Directories**
+```
+excel_outputs/
+├── all_countries_projects.xlsx     # Comprehensive Excel with 8 sheets:
+    ├── API_Projects                 # Original API projects  
+    ├── Scraped_Projects            # All scraped projects
+    ├── All_Projects_Combined       # Unified API + scraped projects
+    ├── Companies                   # All companies with enrichment data
+    ├── Orphaned_Projects           # Projects without company URLs
+    └── API_*_Summary sheets        # Various API statistics
+
+json_outputs/
+├── companies_with_projects.json    # PRIMARY OUTPUT - Unified companies data
+├── scraped_projects.json          # Raw scraper output (intermediate)
+├── scraped_projects_analysis.csv  # CSV analysis of scraped data
+└── orphaned_projects.json         # Projects without company URLs
+
+reports/
+├── missing_ids_report.csv         # Projects/companies missing from API vs URLs
+├── data_coverage_summary.csv      # Coverage statistics
+└── enrichment_status.json         # Company enrichment failures
+```
+
+---
+
+## ⚙️ **Configuration System**
+
+### **Critical Configuration Settings (CONFIG dict in main script)**
+
+#### **Country Selection**
+```python
+"SPECIFIC_COUNTRY": "",              # Single country (e.g., "Australia")
+"SELECTED_COUNTRIES": [],            # Multiple countries ["Australia", "Canada"]
+# If both empty, processes ALL countries from countries.json
+```
+
+#### **Processing Controls**
+```python
+"ENABLE_GEOCODING": True,            # Reverse geocode coordinates to addresses
+"MAX_GEOCODING_REQUESTS": None,      # Limit geocoding calls (None = unlimited)
+"FETCH_COMPANY_RELATIONSHIPS": True, # Enrich companies with additional data
+"MAX_COMPANY_ENRICHMENTS": None,     # Limit enrichment calls (None = all)
+"MAX_PROJECTS_PER_COUNTRY": None,    # Limit API projects per country (testing)
+```
+
+#### **Parallel Scraping Settings**
+```python
+"SCRAPE_MISSING_PROJECTS": True,     # Enable web scraping of missing projects
+"MAX_MISSING_PROJECTS": None,        # Limit scraped projects (None = all)
+"SCRAPER_WORKERS": 4,                # Number of parallel Chrome instances
+```
+
+#### **API Rate Limiting**
+```python
+"API_RETRY_ATTEMPTS": 3,             # Retry failed API calls
+"API_RETRY_DELAY": 2,                # Seconds between retries
+"RELATIONSHIPS_API_PAUSE_INTERVAL": 200,  # Pause every N enrichment calls
+"RELATIONSHIPS_API_PAUSE_DURATION": 60,   # Pause duration (seconds)
+```
+
+---
+
+## 🔄 **Data Flow & Processing Pipeline**
+
+### **Phase 1: API Data Collection**
+1. **Load Configuration** - Countries, URLs, settings
+2. **For Each Country**:
+   - Call `https://mininghub.com/api/projects/filter` with country filter
+   - Process location data (geocoding if enabled)
+   - Organize projects by companies
+   - Create initial companies JSON structure
+
+### **Phase 2: Missing Projects Analysis**
+1. **Generate Missing IDs Report** - Compare API results vs URL file
+2. **Identify Missing Projects** - Projects in URL file but not in API response
+3. **Save Report** - `reports/missing_ids_report.csv`
+
+### **Phase 3: Parallel Web Scraping**
+1. **Load Missing Projects** - From missing_ids_report.csv
+2. **Filter Already Processed** - Skip previously scraped projects
+3. **Parallel Processing**:
+   - Create N Chrome workers (default: 4)
+   - Each worker processes batch of projects (default: 10)
+   - Extract: project_name, operator, commodities, stage, ticker_exchange, company_id
+4. **Save Results** - `json_outputs/scraped_projects.json`
+
+### **Phase 4: Data Integration & Schema Transformation**
+1. **Load Scraped Data** - From scraped_projects.json
+2. **Transform Schema** - Convert scraped format to API format
+3. **Merge with Companies** - Add scraped projects to companies_with_projects.json
+4. **Primary Company Extraction** - Normalize to single company per project (CRM-ready)
+
+### **Phase 5: Company Enrichment**
+1. **Enrich All Companies** - Both API and scraped companies
+2. **API Call** - `https://mininghub.com/api/project/relationships` per company
+3. **Extract Company Data** - CEO, website, headquarters, ticker info, etc.
+4. **Rate Limiting** - Pause every 200 calls for 60 seconds
+
+### **Phase 6: Map Center Fetching (Optional)**
+1. **Fetch Coordinates** - Use Playwright to get lat/lng from map pages
+2. **Geocode Locations** - Convert coordinates to addresses
+3. **Update Projects** - Add location data to scraped projects
+
+### **Phase 7: Final Output & Validation**
+1. **Save Final JSON** - companies_with_projects.json with all data
+2. **Generate Excel** - Comprehensive workbook with 8 sheets
+3. **Schema Validation** - Verify data integrity
+
+---
+
+## 🎯 **Primary Output: companies_with_projects.json**
+
+### **Company Object Schema**
+```json
+{
+  "company_id": "string",
+  "company_name": "string", 
+  "company_url": "string|null",
+  "countries": ["string"],
+  "total_projects": "integer",
+  "projects": [...],
+  "additional_company_data": {
+    "company_info": {
+      "website": "string",
+      "ceo": "string", 
+      "headquarters": "string",
+      "root_ticker": "string",
+      "exchange": "string",
+      // ... more enrichment fields
+    },
+    "fetched_using_project_gid": "integer",
+    "api_response_timestamp": "ISO 8601 string",
+    "enrichment_source": "main_script|standalone_tool"
+  }
+}
+```
+
+### **Project Object Schema (Unified)**
+```json
+{
+  // Core identifiers
+  "gid": "integer",
+  "project_name": "string",
+  "company_id": "integer|string", 
+  "company_name": "string",
+  
+  // Mining data
+  "commodities": "string|null",    // e.g., "Au,Cu,Ag" or "Lithium"
+  "stage": "string|null",          // e.g., "Mining", "Exploration", "Development"
+  "operator": "string|null",       // Operating company name
+  "is_flagship_project": "integer", // 0 or 1
+  
+  // Financial data
+  "root_ticker": "string|null",    // Stock ticker
+  "exchange": "string|null",       // Stock exchange
+  
+  // Geographic data (API projects)
+  "location": "string|null",       // "State, Country"
+  "source_country": "string",      // Country from API query
+  "centroid": "GeoJSON Point|null", // {"type": "Point", "coordinates": [lon, lat]}
+  "area_m2": "string|null",        // Area in square meters
+  "mineral_district_camp": "string|null",
+  
+  // Processed location data
+  "State": "string|null",
+  "Country": "string", 
+  "Geocoded": "boolean",
+  "Postcode": "string|null",
+  "ISO3166_2_Code": "string|null",
+  "County": "string|null",
+  "Territory": "string|null",
+  
+  // URLs
+  "project_url": "string",
+  "company_url": "string",
+  
+  // Source tracking (scraped projects only)
+  "scrape_source": "parallel_scraper",
+  "scrape_timestamp": "ISO 8601 string",
+  "scraper_version": "string|number"
+}
+```
+
+---
+
+## 🚨 **Critical Gotchas & Best Practices**
+
+### **1. API Authentication & Rate Limiting**
+
+#### **JWT Token Expiration**
+- **Location**: Line 165 in `mining_projects_refactored.py`
+- **Issue**: Hardcoded JWT token expires (current expires: 2027-01-19)
+- **Gotcha**: System will fail when token expires
+- **Solution**: Monitor expiration, update token when needed
+
+#### **Rate Limiting Requirements**
+- **Relationships API**: Pause every 200 calls for 60 seconds
+- **Geocoding API**: 1-second delay between calls (Nominatim)
+- **Gotcha**: Exceeding rate limits causes API failures
+- **Monitoring**: Watch for HTTP 429 responses
+
+### **2. Parallel Scraping Resource Management**
+
+#### **Chrome Process Management**
+- **Default Workers**: 4 parallel Chrome instances
+- **Memory Usage**: ~400-600MB per Chrome instance
+- **CPU Usage**: ~0.5-1 core per instance during page load
+- **Gotcha**: Too many workers can overwhelm system resources
+- **Monitoring**: Watch RAM usage, Chrome process count
+
+#### **Selenium Timeouts**
+- **Page Load**: 45 seconds timeout
+- **Element Wait**: [2,3,5,8,12] second exponential backoff
+- **Gotcha**: Some pages load slowly, causing timeouts
+- **Solution**: Monitor timeout rates, adjust if needed
+
+#### **Driver Cleanup**
+- **Critical**: Each worker MUST call `driver.quit()` in finally block
+- **Gotcha**: Zombie Chrome processes accumulate without cleanup
+- **Monitoring**: Check Chrome process count after runs
+
+### **3. Data Schema & Transformation**
+
+#### **GID Type Consistency**
+- **API Projects**: GID as integer
+- **Scraped Projects**: GID as string, converted to integer
+- **Gotcha**: Type mismatches can break lookups
+- **Solution**: Always convert to string for comparisons
+
+#### **Company ID Normalization**
+- **API**: company_id as integer
+- **Scraped**: company_id as string, needs conversion
+- **Gotcha**: Mixed types break company lookups
+- **Solution**: Consistent string conversion for keys
+
+#### **Primary vs Array Company Data**
+- **New Design**: Each project has one primary company (CRM-ready)
+- **Legacy**: company_ids arrays (backward compatibility)
+- **Gotcha**: Code must handle both formats during transition
+- **Solution**: Always populate both primary and array fields
+
+### **4. File Dependencies & Order**
+
+#### **Critical File Dependencies**
+1. `countries.json` - Must exist (fallback: hardcoded list)
+2. `found_urls.xlsx` - Must exist with 'Projects' and 'Companies' sheets
+3. `reports/missing_ids_report.csv` - Created by main script, used by scraper
+
+#### **Processing Order (CRITICAL)**
+1. **API Processing** → Creates initial companies JSON
+2. **Missing IDs Report** → Identifies projects to scrape  
+3. **Parallel Scraping** → Scrapes missing projects
+4. **Data Merging** → Integrates scraped data
+5. **Company Enrichment** → Enriches ALL companies (API + scraped)
+6. **Final Save** → Schema validation and output
+
+#### **Gotcha**: Running enrichment before scraping misses new companies!
+
+### **5. Output File Management**
+
+#### **Primary Output**: `json_outputs/companies_with_projects.json`
+- **Purpose**: Main CRM-ready dataset
+- **Format**: Array of company objects with nested projects
+- **Size**: Can be very large (4.6MB+ with full data)
+- **Gotcha**: File can become corrupted if process interrupted during save
+
+#### **Backup Strategy**
+- **No automatic backups** in current system
+- **Gotcha**: Data loss if file corrupted during processing
+- **Recommendation**: Manual backups before major runs
+
+#### **Incremental Processing**
+- **Scraped Projects**: Automatically filters already processed projects
+- **Companies**: Merges new data with existing
+- **Gotcha**: Interrupted runs can leave partial data
+- **Solution**: Check final statistics to verify completeness
+
+---
+
+## 🔧 **Common Issues & Troubleshooting**
+
+### **Issue 1: Selenium Timeouts**
+```
+Message: timeout: Timed out receiving message from renderer: 28.989
+```
+- **Cause**: Page load exceeds 45-second timeout
+- **Solution**: Increase timeout or reduce concurrent workers
+- **Prevention**: Monitor system resources
+
+### **Issue 2: Schema Validation Failures**
+```
+Schema validation failed: None is not of type 'integer', 'string'
+```
+- **Cause**: Required fields set to None during transformation
+- **Solution**: Ensure primary company data is extracted before transformation
+- **Prevention**: Validate scraped data before transformation
+
+### **Issue 3: No Missing Projects Found**
+```
+❌ No missing projects found
+```
+- **Cause**: `missing_ids_report.csv` doesn't exist or is empty
+- **Solution**: Run API processing first to generate missing IDs report
+- **Prevention**: Ensure proper processing order
+
+### **Issue 4: Import Errors**
+```
+❌ Could not import parallel scraper
+```
+- **Cause**: `project_scraper_parallel_compact.py` not in same directory
+- **Solution**: Ensure all core scripts are in same directory
+- **Prevention**: Keep scripts together, check imports
+
+### **Issue 5: Memory Issues**
+```
+Chrome processes: 56+ (high count)
+```
+- **Cause**: Too many parallel workers or zombie processes
+- **Solution**: Reduce SCRAPER_WORKERS, restart system
+- **Prevention**: Monitor Chrome process count
+
+---
+
+## 📊 **Performance Optimization Guidelines**
+
+### **Resource Planning**
+- **RAM**: ~600MB per worker + 2GB base system
+- **CPU**: ~1 core per worker during active scraping
+- **Recommended**: 4 workers max on 8GB system, 6-8 workers on 16GB+
+
+### **Batch Size Tuning**
+- **Current**: 10 projects per worker batch
+- **Small batches**: More overhead, better error isolation
+- **Large batches**: Better throughput, harder recovery from failures
+- **Sweet spot**: 10-20 projects per batch
+
+### **Rate Limiting Best Practices**
+- **API Calls**: Never exceed 200 calls without pause
+- **Geocoding**: Always maintain 1-second delays
+- **Web Scraping**: 0.2-second delay between requests per worker
+
+---
+
+## 🎯 **Production Configuration**
+
+### **For Full Production Run**
+```python
+CONFIG = {
+    "SPECIFIC_COUNTRY": "",                    # Process all countries
+    "ENABLE_GEOCODING": True,                  # Full geocoding
+    "FETCH_COMPANY_RELATIONSHIPS": True,       # Full enrichment
+    "MAX_COMPANY_ENRICHMENTS": None,           # Enrich all companies
+    "SCRAPE_MISSING_PROJECTS": True,           # Enable scraping
+    "MAX_MISSING_PROJECTS": None,              # Scrape all missing
+    "SCRAPER_WORKERS": 4,                      # 4 parallel workers
+    "FETCH_MAP_CENTERS": True,                 # Enable map coordinate fetching
+    "MAP_FETCH_CONCURRENCY": 12,               # 12 concurrent map fetches
+}
+```
+
+### **For Testing/Development**
+```python
+CONFIG = {
+    "SPECIFIC_COUNTRY": "Australia",           # Single country
+    "MAX_PROJECTS_PER_COUNTRY": 50,           # Limit API projects
+    "MAX_MISSING_PROJECTS": 10,               # Limit scraping
+    "MAX_COMPANY_ENRICHMENTS": 10,            # Limit enrichment
+    "SCRAPER_WORKERS": 2,                     # Fewer workers
+}
+```
+
+---
+
+## 🔍 **Data Quality Validation**
+
+### **Schema Validation (Automatic)**
+- **When**: After final save in main script
+- **Purpose**: Ensures data integrity and CRM compatibility
+- **Output**: Validation statistics and error reports
+
+### **Manual Validation Checks**
+```bash
+# Validate current companies file
+python3 json_schema_validator.py
+
+# Check scraper output
+head -20 json_outputs/scraped_projects_analysis.csv
+
+# Verify coverage
+cat reports/data_coverage_summary.csv
+```
+
+### **Success Metrics to Monitor**
+- **API Coverage**: >95% of API projects have URLs
+- **Scraping Success**: >90% success rate
+- **Company Enrichment**: >80% of companies enriched
+- **Schema Validation**: 100% pass rate
+
+---
+
+## 🚀 **Execution Commands**
+
+### **Full Production Run**
+```bash
+# Ensure you're in the correct directory
+cd "/path/to/Data Cleanup"
+
+# Run complete processing pipeline
+python3 mining_projects_refactored.py
+```
+
+### **Debug/Testing Commands**
+```bash
+# Test parallel scraper standalone
+python3 project_scraper_parallel_compact.py
+
+# Debug specific project with visual browser
+python3 debug_scraper.py
+
+# Validate schema
+python3 json_schema_validator.py
+
+# Analyze map endpoints (if needed)
+python3 map_endpoint_sniffer.py --iframe "https://mininghub.com/map?gid=9821&companyId=1318"
+```
+
+---
+
+## ⚠️ **Critical Dependencies**
+
+### **Python Packages (Required)**
+```bash
+pip3 install pandas openpyxl requests beautifulsoup4 selenium 
+pip3 install webdriver-manager tqdm psutil jsonschema
+```
+
+### **System Requirements**
+- **Chrome/Chromium**: Required for Selenium
+- **ChromeDriver**: Auto-installed by webdriver-manager
+- **Memory**: 8GB+ recommended for parallel processing
+- **Network**: Stable internet for API calls and web scraping
+
+---
+
+## 🔒 **Security & Compliance**
+
+### **API Security**
+- **JWT Token**: Hardcoded in script (line 165)
+- **User Agent**: Mimics real browser
+- **Rate Limiting**: Respects API limits
+
+### **Web Scraping Ethics**
+- **Delays**: 0.2s between requests per worker
+- **User Agent**: Identifies as browser
+- **Respect**: Follows rate limiting best practices
+
+---
+
+## 📈 **Monitoring & Maintenance**
+
+### **Regular Checks**
+1. **JWT Token Expiration** - Monitor and update before expiry
+2. **API Endpoint Changes** - Verify endpoints still work
+3. **Schema Changes** - Update validator if data structure changes
+4. **Performance Degradation** - Monitor success rates and timing
+
+### **Log Analysis**
+- **Success Rates**: Should be >90% for both API and scraping
+- **Performance**: Monitor projects/sec rates
+- **Resource Usage**: Watch RAM and Chrome process counts
+- **Errors**: Investigate timeout patterns and API failures
+
+---
+
+## 🔧 **Advanced Configuration**
+
+### **Chrome Options Customization**
+Located in `project_scraper_parallel_compact.py` line 100-104:
+```python
+# Add/remove Chrome arguments for specific needs
+"--disable-images",           # Faster loading (if layouts don't need images)  
+"--block-new-web-contents",   # Prevent popup windows
+"--disable-web-security",     # For cross-origin issues (use carefully)
+```
+
+### **Schema Validation Customization**
+- **Location**: `json_schema_validator.py`
+- **Modify**: `_create_unified_project_schema()` for field requirements
+- **Test**: Always run validation after schema changes
+
+### **API Payload Customization**
+Located in `mining_projects_refactored.py` line 157-166:
+```python
+# Modify filters for different data subsets
+"filters": {
+    "country": country,
+    "marketcap": {"min": 0, "max": 10000},    # Market cap range
+    "commoditiesWhere": "any"                 # Commodity filter
+}
+```
+
+---
+
+## 🎯 **File Redundancy Analysis**
+
+### **Active Files (Production System)**
+- ✅ `mining_projects_refactored.py` - Main processor
+- ✅ `project_scraper_parallel_compact.py` - Parallel scraper  
+- ✅ `json_schema_validator.py` - Schema validation
+- ✅ `json_schema_documentation.md` - Reference docs
+- ✅ `SYSTEM_KNOWLEDGE_BASE.md` - Technical documentation
+
+### **Analysis Tools (Optional)**
+- ✅ `map_endpoint_sniffer.py` - Map coordinate extraction (standalone)
+
+### **Cleaned Up Files**
+- ❌ `company_enrichment_tool.py` - **DELETED** (redundant)
+- ❌ `debug_scraper.py` - **DELETED** (per user request)
+- ❌ `scraped_projects_merged.json` - **DELETED** (legacy file)
+- ❌ `processing_summary.csv` - **DELETED** (replaced by main script reporting)
+- ❌ `mh_report.json` - **DELETED** (map analysis output)
+
+---
+
+## 🎉 **Success Indicators**
+
+### **Healthy Run Indicators**
+```
+✅ Schema validation PASSED!
+📊 API projects: 19
+📊 Scraped projects: 164  
+📊 Enriched companies: 5 (2.8%)
+📊 Scraper contribution: 89.6%
+```
+
+### **Expected Performance**
+- **API Processing**: 2-10 seconds per country
+- **Parallel Scraping**: 0.04-0.16 projects/sec per worker
+- **Company Enrichment**: 1-2 seconds per company
+- **Total Runtime**: Varies by scope (minutes for testing, hours for full run)
+
+### **Data Quality Targets**
+- **Scraping Success**: >90%
+- **Company Extraction**: >95% of successful scrapes
+- **Schema Compliance**: 100%
+- **API Coverage**: >95% projects have URLs
+
+---
+
+This knowledge base should provide complete technical guidance for maintaining, troubleshooting, and extending the mining projects data cleanup system.
