@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CompanyData",
+  "type": "object",
+  "properties": {
+    "company_id": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    },
+    "companyName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": [
+              "integer"
+            ]
+          },
+          "company_id": {
+            "type": [
+              "integer"
+            ]
+          },
+          "file_title": {
+            "type": [
+              "string"
+            ]
+          },
+          "file_name": {
+            "type": [
+              "null"
+            ]
+          },
+          "file_data": {
+            "type": [
+              "string"
+            ]
+          },
+          "date_created": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

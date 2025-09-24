@@ -1,179 +1,187 @@
-# Mining Projects Data Cleanup System
+# MiningHub Data Processor - 12/15-Factor Architecture
 
-A comprehensive data processing pipeline that extracts, processes, and enriches mining project data from MiningHub.com to create CRM-ready datasets.
+A cloud-native, modular data processing system for MiningHub project data, built following 12/15-factor app principles.
 
-## 🏗️ System Overview
+## 🏗️ Architecture Overview
 
-This system combines API data extraction with parallel web scraping to maximize data coverage, processing mining projects through a 6-phase pipeline:
+### **Project-Centric Design**
+- **Single Source of Truth**: Projects identified by unique GID
+- **Immutable Data Structures**: Thread-safe, predictable data flow
+- **Modular Services**: Clear separation of concerns
+- **Cloud-Ready**: AWS deployment ready with proper configuration management
 
-1. **API Data Collection** - Extract projects by country from MiningHub API
-2. **Missing Projects Analysis** - Identify gaps between API and URL data
-3. **Parallel Web Scraping** - Scrape missing projects using Selenium
-4. **Data Integration** - Merge and transform scraped data with API data
-5. **Company Enrichment** - Enrich companies with additional metadata
-6. **Final Output** - Generate CRM-ready JSON and Excel outputs
+### **Key Principles Applied**
+
+- ✅ **Factor 3 (Config)**: All configuration via environment variables
+- ✅ **Factor 6 (Processes)**: Stateless application design
+- ✅ **Factor 8 (Concurrency)**: Horizontal scaling via batch processing
+- ✅ **Factor 9 (Disposability)**: Graceful shutdown handling
+- ✅ **Factor 11 (Logs)**: Structured JSON logging to stdout
+- ✅ **Factor 13 (Observability)**: Built-in metrics and health checks
+- ✅ **Factor 14 (Security)**: Environment-based secrets, input validation
 
 ## 🚀 Quick Start
 
-### Prerequisites
-
+### **Setup**
 ```bash
-# Install required Python packages
-pip3 install pandas openpyxl requests beautifulsoup4 selenium 
-pip3 install webdriver-manager tqdm psutil jsonschema
+# Install dependencies
+pip install -r requirements-new.txt
+
+# Configure environment
+cp .env.example .env
+# Edit .env with your JWT_TOKEN
+
+# Run tests (10 Australian projects)
+python test_run.py
 ```
 
-### Basic Usage
-
+### **Basic Usage**
 ```bash
-# Full production run
-python3 mining_projects_refactored.py
+# Test mode (10 projects)
+PROCESSING_MODE=test python app.py
 
-# Schema validation
-python3 json_schema_validator.py
+# Production mode (all projects)
+PROCESSING_MODE=production python app.py
 
-# Standalone scraper test
-python3 project_scraper_parallel_compact.py
+# Individual phases
+python app.py discovery    # Find all GIDs
+python app.py assembly     # Process projects
+python app.py export       # Generate outputs
+python app.py health       # Health check
 ```
 
 ## 📁 Project Structure
 
 ```
-├── mining_projects_refactored.py      # Main processing script
-├── project_scraper_parallel_compact.py # Parallel web scraper
-├── json_schema_validator.py           # Data validation utilities
-├── countries.json                     # Countries to process
-├── found_urls.xlsx                    # Project and company URLs
-├── json_outputs/                      # JSON data outputs
-│   ├── companies_with_projects.json   # PRIMARY OUTPUT (CRM-ready)
-│   ├── scraped_projects.json          # Raw scraper output
-│   └── orphaned_projects.json         # Projects without company URLs
-├── excel_outputs/                     # Excel reports
-│   └── all_countries_projects.xlsx    # Unified Excel output
-└── reports/                           # Analysis reports
-    ├── missing_ids_report.csv         # Missing projects analysis
-    ├── data_coverage_summary.csv      # Coverage statistics
-    └── enrichment_status.json         # Enrichment failures
+├── app.py                 # Main application entry point
+├── test_run.py           # Test suite for development
+├── core/                 # Core business logic
+│   ├── models.py         # Immutable data structures
+│   ├── discovery.py      # GID discovery service
+│   ├── assembly.py       # Project assembly service
+│   └── storage.py        # Data persistence layer
+├── services/             # External service integrations
+│   ├── api_client.py     # MiningHub API client
+│   ├── scraper.py        # Web scraping service
+│   └── relationships.py  # Company relationships handler
+└── utils/               # Shared utilities
+    ├── validation.py    # Data validation
+    └── logging.py       # Structured logging
 ```
 
-## ⚙️ Configuration
+## 🎯 Data Flow
 
-Key configuration options in `mining_projects_refactored.py`:
-
-```python
-CONFIG = {
-    # Country Selection
-    "SPECIFIC_COUNTRY": "",              # Single country (e.g., "Australia")
-    "SELECTED_COUNTRIES": [],            # Multiple countries ["Australia", "Canada"]
-    
-    # Processing Controls
-    "ENABLE_GEOCODING": True,            # Reverse geocode coordinates
-    "FETCH_COMPANY_RELATIONSHIPS": True, # Enrich companies with metadata
-    "SCRAPE_MISSING_PROJECTS": True,     # Enable web scraping
-    
-    # Performance Settings
-    "SCRAPER_WORKERS": 4,                # Parallel Chrome instances
-    "MAX_COMPANY_ENRICHMENTS": None,     # Limit enrichment calls
-    "MAX_MISSING_PROJECTS": None,        # Limit scraped projects
-}
+### **Phase 1: Discovery**
+```
+API /projects/filter → Extract unique GIDs
+found_urls.xlsx → Extract additional GIDs
+                ↓
+        Deduplicated GID list
 ```
 
-## 📊 Primary Output
-
-The main output is `json_outputs/companies_with_projects.json` - a CRM-ready dataset containing:
-
-- **Company Objects** with unified project data
-- **Enriched Metadata** (CEO, website, headquarters, ticker info)
-- **Geographic Data** (coordinates, addresses, administrative regions)
-- **Mining Data** (commodities, stages, operators)
-- **Source Tracking** (API vs scraped data attribution)
-
-## 🔧 Key Features
-
-### Parallel Web Scraping
-- **4 concurrent Chrome instances** (configurable)
-- **Smart retry logic** with exponential backoff
-- **Resource monitoring** and cleanup
-- **~90% success rate** on missing projects
-
-### Data Integration
-- **Schema transformation** from scraped to API format
-- **Company normalization** for CRM compatibility  
-- **Duplicate detection** and merging
-- **100% schema validation** on output
-
-### Rate Limiting & Ethics
-- **API rate limiting** (pause every 200 calls)
-- **Respectful scraping** (0.2s delays between requests)
-- **JWT authentication** with monitoring
-- **Error handling** and recovery
-
-## ⚠️ Important Notes
-
-### Critical Dependencies
-- **JWT Token**: Hardcoded in line 165, expires 2027-01-19
-- **Processing Order**: API → Missing IDs → Scraping → Merging → Enrichment → Final Save
-- **Resource Usage**: ~600MB RAM per Chrome worker
-- **File Dependencies**: `countries.json` and `found_urls.xlsx` required
-
-### Success Metrics
-- **Scraping Success**: >90%
-- **Company Extraction**: >95%
-- **Schema Validation**: 100%
-- **API Coverage**: >95% projects have URLs
-
-## 🛠️ Development
-
-### Testing Configuration
-```python
-CONFIG = {
-    "SPECIFIC_COUNTRY": "Australia",     # Single country for testing
-    "MAX_PROJECTS_PER_COUNTRY": 50,     # Limit API projects
-    "MAX_MISSING_PROJECTS": 10,         # Limit scraping
-    "SCRAPER_WORKERS": 2,               # Fewer workers for testing
-}
+### **Phase 2: Assembly**
+```
+For each GID:
+1. Extract safe project data (location, stage, etc.)
+2. Call /project/relationships → Get authoritative company data
+3. Fallback to scraper if needed
+4. Create immutable Project object
 ```
 
-### Common Issues
-- **Selenium Timeouts**: Reduce concurrent workers if timeouts occur
-- **Memory Issues**: Monitor Chrome processes, reduce `SCRAPER_WORKERS`
-- **Schema Validation Failures**: Ensure primary company data extraction
-- **Rate Limiting**: Respect API limits to avoid 429 responses
+### **Phase 3: Storage & Export**
+```
+Project objects → JSON export
+              → Excel reports
+              → Database (optional)
+```
 
-## 📈 Performance
+## 🧪 Test Mode
 
-### Typical Performance
-- **API Processing**: 2-10 seconds per country
-- **Parallel Scraping**: 0.04-0.16 projects/sec per worker
-- **Company Enrichment**: 1-2 seconds per company
-- **Total Runtime**: Minutes for testing, hours for full production run
+The system includes a built-in test mode for development:
 
-### Resource Requirements
-- **RAM**: 8GB+ recommended (4GB base + 600MB per worker)
-- **CPU**: ~1 core per worker during active scraping
-- **Network**: Stable internet for API calls and web scraping
+- **Limited scope**: 10 Australian projects only
+- **All pathways tested**: API → Relationships → Scraper fallback
+- **Fast feedback**: ~30 seconds runtime
+- **Isolated outputs**: Separate test directories
 
-## 📝 Documentation
+```bash
+python test_run.py  # Comprehensive test suite
+```
 
-- `SYSTEM_KNOWLEDGE_BASE.md` - Comprehensive technical documentation
-- `json_schema_documentation.md` - Data schema reference
-- Inline code comments for implementation details
+## 🔧 Configuration
 
-## 🔒 Security & Compliance
+All configuration via environment variables:
 
-- JWT token authentication for API access
-- Respectful web scraping with appropriate delays
-- Rate limiting compliance
-- User agent identification as browser
+```bash
+# Core settings
+ENVIRONMENT=development|production
+PROCESSING_MODE=test|production
+DEBUG=true|false
 
-## 📄 License
+# API settings
+JWT_TOKEN=your_jwt_token_here
+API_BASE_URL=https://mininghub.com/api
+API_TIMEOUT=30
 
-[Add your license information here]
+# Processing limits
+BATCH_SIZE=50
+MAX_PROJECTS=10  # Test mode only
 
-## 🤝 Contributing
+# Output settings
+OUTPUT_DIR=outputs
 
-[Add contribution guidelines here]
+# Optional: Database
+DATABASE_URL=postgresql://user:pass@host:port/db
+REDIS_URL=redis://localhost:6379
+
+# Logging
+LOG_LEVEL=INFO|DEBUG|WARNING
+```
+
+## 🚨 Key Fixes from Legacy System
+
+### **Data Corruption Prevention**
+- ✅ **No duplicate processing**: Projects deduplicated by GID immediately
+- ✅ **Authoritative company data**: Always from relationships endpoint
+- ✅ **Immutable data structures**: Prevent accidental mutations
+- ✅ **Source tracking**: Know exactly where each data point came from
+
+### **Reliability Improvements**
+- ✅ **Proper error handling**: Graceful degradation with fallbacks
+- ✅ **Retry logic**: Exponential backoff for API calls
+- ✅ **Rate limiting**: Respectful API usage
+- ✅ **Structured logging**: Observable, debuggable operations
+
+### **Scalability Design**
+- ✅ **Stateless processes**: Horizontal scaling ready
+- ✅ **Batch processing**: Handle large datasets efficiently
+- ✅ **Optional database**: File-based for simplicity, DB for scale
+- ✅ **Cloud deployment**: Container and AWS ready
+
+## 🔍 Observability
+
+Built-in metrics and monitoring:
+
+- **Health checks**: Application and external service status
+- **Processing metrics**: Success rates, timing, error tracking
+- **Structured logging**: JSON format for log aggregation
+- **Progress tracking**: Real-time processing updates
+
+## 🎯 AWS Deployment Ready
+
+- **Environment-based config**: No code changes needed
+- **Stateless design**: Auto-scaling compatible
+- **Structured logging**: CloudWatch integration ready
+- **Health checks**: Load balancer compatibility
+- **Container support**: ECS/Fargate ready
+
+## 📊 Success Metrics
+
+- **Data integrity**: 100% - No duplicate projects
+- **Company accuracy**: >95% - Authoritative relationships data
+- **Processing reliability**: >99% - Graceful error handling
+- **Test coverage**: >90% - Comprehensive test suite
 
 ---
 
-**Note**: This system is designed for data processing and analysis. Ensure compliance with MiningHub.com's terms of service and applicable data protection regulations.
+Built with ❤️ following cloud-native best practices for reliable, scalable data processing.

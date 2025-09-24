@@ -1,0 +1,1251 @@
+{
+  "total_files": 22,
+  "used_files": [
+    "services/map_center.py",
+    "Old Scripts/mining_projects_refactored.py",
+    "services/playwright_parallel_scraper.py",
+    "core/storage.py",
+    "services/api_client.py",
+    "scripts/project_audit.py",
+    "core/assembly.py",
+    "scripts/run_playwright_parallel_scraper.py",
+    "core/__init__.py",
+    "scripts/enrich_excel_projects.py",
+    "core/discovery.py",
+    "Old Scripts/Company.py",
+    "Old Scripts/fetch_map_centers.py",
+    "scripts/process_not_started.py",
+    "app.py",
+    "Old Scripts/project_scraper_parallel_compact.py",
+    "services/playwright_scraper.py",
+    "services/__init__.py",
+    "scripts/run_playwright_scraper.py",
+    "services/geocoding.py"
+  ],
+  "unused_files": [
+    "core/models.py",
+    "Old Scripts/companyids.py"
+  ],
+  "entry_points": [
+    "Old Scripts/Company.py",
+    "Old Scripts/fetch_map_centers.py",
+    "Old Scripts/mining_projects_refactored.py",
+    "Old Scripts/project_scraper_parallel_compact.py",
+    "app.py",
+    "scripts/enrich_excel_projects.py",
+    "scripts/process_not_started.py",
+    "scripts/project_audit.py",
+    "scripts/run_playwright_parallel_scraper.py",
+    "scripts/run_playwright_scraper.py",
+    "services/map_center.py",
+    "services/playwright_parallel_scraper.py",
+    "services/playwright_scraper.py"
+  ],
+  "dependency_chains": {
+    "Old Scripts/Company.py": [
+      "Old Scripts/Company.py"
+    ],
+    "Old Scripts/fetch_map_centers.py": [
+      "Old Scripts/fetch_map_centers.py"
+    ],
+    "Old Scripts/mining_projects_refactored.py": [
+      "services/playwright_parallel_scraper.py",
+      "services/__init__.py",
+      "Old Scripts/mining_projects_refactored.py"
+    ],
+    "Old Scripts/project_scraper_parallel_compact.py": [
+      "Old Scripts/project_scraper_parallel_compact.py"
+    ],
+    "app.py": [
+      "app.py",
+      "services/map_center.py",
+      "core/storage.py",
+      "services/api_client.py",
+      "services/playwright_parallel_scraper.py",
+      "core/assembly.py",
+      "core/__init__.py",
+      "services/__init__.py",
+      "core/discovery.py",
+      "services/geocoding.py"
+    ],
+    "scripts/enrich_excel_projects.py": [
+      "services/map_center.py",
+      "services/api_client.py",
+      "scripts/enrich_excel_projects.py",
+      "services/__init__.py",
+      "services/geocoding.py"
+    ],
+    "scripts/process_not_started.py": [
+      "scripts/process_not_started.py",
+      "services/map_center.py",
+      "app.py",
+      "core/storage.py",
+      "services/api_client.py",
+      "services/playwright_parallel_scraper.py",
+      "core/assembly.py",
+      "core/__init__.py",
+      "services/__init__.py",
+      "core/discovery.py",
+      "services/geocoding.py"
+    ],
+    "scripts/project_audit.py": [
+      "scripts/project_audit.py"
+    ],
+    "scripts/run_playwright_parallel_scraper.py": [
+      "services/playwright_parallel_scraper.py",
+      "scripts/run_playwright_parallel_scraper.py",
+      "services/__init__.py"
+    ],
+    "scripts/run_playwright_scraper.py": [
+      "services/playwright_scraper.py",
+      "services/playwright_parallel_scraper.py",
+      "services/__init__.py",
+      "scripts/run_playwright_scraper.py",
+      "services/geocoding.py"
+    ],
+    "services/map_center.py": [
+      "services/map_center.py"
+    ],
+    "services/playwright_parallel_scraper.py": [
+      "services/playwright_parallel_scraper.py"
+    ],
+    "services/playwright_scraper.py": [
+      "services/geocoding.py",
+      "services/playwright_scraper.py",
+      "services/__init__.py"
+    ]
+  },
+  "circular_dependencies": [],
+  "external_dependencies": [
+    "importlib.util",
+    "os",
+    "random",
+    "companyids",
+    "urllib3.util.retry",
+    "tqdm",
+    "project_scraper_parallel_compact",
+    "webdriver_manager.chrome",
+    "datetime",
+    "typing",
+    "ast",
+    "pandas",
+    "asyncio",
+    "json",
+    "json_schema_validator",
+    "threading",
+    "bs4",
+    "selenium.webdriver.chrome.options",
+    "selenium.webdriver.common.by",
+    "logging",
+    "playwright_stealth",
+    "pathlib",
+    "csv",
+    "models",
+    "enum",
+    "re",
+    "psutil",
+    "urllib.parse",
+    "time",
+    "dotenv",
+    "shutil",
+    "concurrent.futures",
+    "selenium",
+    "requests.adapters",
+    "playwright.async_api",
+    "argparse",
+    "signal",
+    "sys",
+    "collections",
+    "requests",
+    "selenium.webdriver.chrome.service",
+    "dataclasses"
+  ],
+  "file_analyses": {
+    "Old Scripts/Company.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/Old Scripts/Company.py",
+      "relative_path": "Old Scripts/Company.py",
+      "imports": [
+        "import os",
+        "import json",
+        "import time",
+        "from pathlib import Path",
+        "from typing import Any, Dict, List, Optional",
+        "import requests",
+        "from requests.adapters import HTTPAdapter",
+        "from urllib3.util.retry import Retry",
+        "from dotenv import load_dotenv",
+        "from companyids import company_ids",
+        "import re",
+        "import pandas"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "os",
+        "json",
+        "time",
+        "pathlib",
+        "typing",
+        "requests",
+        "requests.adapters",
+        "urllib3.util.retry",
+        "dotenv",
+        "companyids",
+        "re",
+        "pandas"
+      ],
+      "functions": [
+        "build_session",
+        "_dump_debug_response",
+        "get_company_data",
+        "save_company_data_aggregated",
+        "_sanitize_string",
+        "_clean_json_value",
+        "_infer_type",
+        "_build_links_schema",
+        "main",
+        "flatten_company"
+      ],
+      "classes": [],
+      "is_entry_point": true,
+      "is_executable": false,
+      "lines_of_code": 254,
+      "dependencies": [],
+      "dependents": []
+    },
+    "Old Scripts/companyids.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/Old Scripts/companyids.py",
+      "relative_path": "Old Scripts/companyids.py",
+      "imports": [],
+      "internal_imports": [],
+      "external_imports": [],
+      "functions": [],
+      "classes": [],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 3826,
+      "dependencies": [],
+      "dependents": []
+    },
+    "Old Scripts/fetch_map_centers.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/Old Scripts/fetch_map_centers.py",
+      "relative_path": "Old Scripts/fetch_map_centers.py",
+      "imports": [
+        "import asyncio",
+        "import csv",
+        "from pathlib import Path",
+        "import pandas",
+        "from playwright.async_api import async_playwright, TimeoutError",
+        "import argparse"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "asyncio",
+        "csv",
+        "pathlib",
+        "pandas",
+        "playwright.async_api",
+        "argparse"
+      ],
+      "functions": [
+        "read_ids"
+      ],
+      "classes": [],
+      "is_entry_point": true,
+      "is_executable": true,
+      "lines_of_code": 147,
+      "dependencies": [],
+      "dependents": []
+    },
+    "Old Scripts/mining_projects_refactored.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/Old Scripts/mining_projects_refactored.py",
+      "relative_path": "Old Scripts/mining_projects_refactored.py",
+      "imports": [
+        "import json",
+        "import pandas",
+        "import os",
+        "import requests",
+        "import time",
+        "import datetime",
+        "import asyncio",
+        "from typing import Dict, List, Optional, Tuple",
+        "from tqdm import tqdm",
+        "from dotenv import load_dotenv",
+        "from playwright.async_api import async_playwright, TimeoutError",
+        "from json_schema_validator import MiningDataSchemaValidator",
+        "import pandas",
+        "import datetime",
+        "from services.playwright_parallel_scraper import PlaywrightParallelScraper",
+        "from project_scraper_parallel_compact import ParallelProjectScraper"
+      ],
+      "internal_imports": [
+        "services.playwright_parallel_scraper"
+      ],
+      "external_imports": [
+        "json",
+        "pandas",
+        "os",
+        "requests",
+        "time",
+        "datetime",
+        "asyncio",
+        "typing",
+        "tqdm",
+        "dotenv",
+        "playwright.async_api",
+        "json_schema_validator",
+        "pandas",
+        "datetime",
+        "project_scraper_parallel_compact"
+      ],
+      "functions": [
+        "main",
+        "__init__",
+        "_apply_mode_configuration",
+        "_create_directories",
+        "_clear_test_working_files",
+        "_get_timestamped_filename",
+        "_load_countries",
+        "_load_urls",
+        "_get_countries_to_process",
+        "_api_call_with_retry",
+        "fetch_country_data",
+        "process_location",
+        "fetch_company_relationships",
+        "process_country",
+        "_organize_by_companies",
+        "enrich_companies",
+        "_extract_company_data_only",
+        "create_summaries",
+        "_get_scraped_projects_dataframe",
+        "_get_all_projects_combined_dataframe",
+        "_get_companies_dataframe",
+        "_get_orphaned_projects_dataframe",
+        "_get_all_projects_unified_dataframe",
+        "_try_resolve_orphaned_company_url",
+        "save_outputs",
+        "_create_coverage_report",
+        "_create_detailed_missing_ids_report",
+        "_create_test_missing_ids_report",
+        "_scrape_missing_projects",
+        "_merge_scraped_projects_with_companies",
+        "_transform_scraped_project_to_api_schema",
+        "_update_company_data_with_scraped",
+        "_fetch_map_centers_and_geocode_scraped_projects",
+        "_save_final_enriched_companies",
+        "run",
+        "__init__",
+        "reverse_geocode",
+        "__init__"
+      ],
+      "classes": [
+        "MiningProjectsProcessor",
+        "Geocoder",
+        "MapCenterFetcher"
+      ],
+      "is_entry_point": true,
+      "is_executable": true,
+      "lines_of_code": 1466,
+      "dependencies": [
+        "services/playwright_parallel_scraper.py",
+        "services/__init__.py"
+      ],
+      "dependents": []
+    },
+    "Old Scripts/project_scraper_parallel_compact.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/Old Scripts/project_scraper_parallel_compact.py",
+      "relative_path": "Old Scripts/project_scraper_parallel_compact.py",
+      "imports": [
+        "import json",
+        "import pandas",
+        "import os",
+        "import time",
+        "import datetime",
+        "import re",
+        "import psutil",
+        "import threading",
+        "from typing import Dict, List, Optional, Tuple",
+        "from dataclasses import dataclass, asdict",
+        "from concurrent.futures import ThreadPoolExecutor, as_completed",
+        "from tqdm import tqdm",
+        "from dotenv import load_dotenv",
+        "from bs4 import BeautifulSoup",
+        "from selenium import webdriver",
+        "from selenium.webdriver.chrome.options import Options",
+        "from selenium.webdriver.common.by import By",
+        "from webdriver_manager.chrome import ChromeDriverManager",
+        "from selenium.webdriver.chrome.service import Service"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "json",
+        "pandas",
+        "os",
+        "time",
+        "datetime",
+        "re",
+        "psutil",
+        "threading",
+        "typing",
+        "dataclasses",
+        "concurrent.futures",
+        "tqdm",
+        "dotenv",
+        "bs4",
+        "selenium",
+        "selenium.webdriver.chrome.options",
+        "selenium.webdriver.common.by",
+        "webdriver_manager.chrome",
+        "selenium.webdriver.chrome.service"
+      ],
+      "functions": [
+        "scrape_missing_projects_for_main_script",
+        "main",
+        "__post_init__",
+        "__init__",
+        "get_env_var",
+        "_get_system_resources",
+        "_create_driver",
+        "_scrape_single_project",
+        "_parse_html_content",
+        "_parse_properties_table",
+        "_extract_companies_from_cell",
+        "_ensure_primary_company_data",
+        "_extract_company_id_fast",
+        "_parse_fallback_content",
+        "_add_company_to_result",
+        "_create_company_slug",
+        "_worker_scrape_batch",
+        "load_missing_projects",
+        "save_results",
+        "_export_to_csv",
+        "scrape_missing_projects"
+      ],
+      "classes": [
+        "ScrapedProject",
+        "ParallelProjectScraper"
+      ],
+      "is_entry_point": true,
+      "is_executable": true,
+      "lines_of_code": 531,
+      "dependencies": [],
+      "dependents": []
+    },
+    "app.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/app.py",
+      "relative_path": "app.py",
+      "imports": [
+        "import os",
+        "import sys",
+        "import logging",
+        "import signal",
+        "from typing import Optional",
+        "from dataclasses import dataclass",
+        "from dotenv import load_dotenv",
+        "from core.discovery import ProjectDiscovery",
+        "from core.assembly import ProjectAssembler",
+        "from core.storage import ProjectStorage",
+        "from core.storage import ProjectStorage"
+      ],
+      "internal_imports": [
+        "core.discovery",
+        "core.assembly",
+        "core.storage",
+        "core.storage"
+      ],
+      "external_imports": [
+        "os",
+        "sys",
+        "logging",
+        "signal",
+        "typing",
+        "dataclasses",
+        "dotenv"
+      ],
+      "functions": [
+        "main",
+        "__post_init__",
+        "__init__",
+        "_shutdown_handler",
+        "health_check",
+        "run_discovery",
+        "run_assembly",
+        "run_export",
+        "run_full_pipeline"
+      ],
+      "classes": [
+        "AppConfig",
+        "Application"
+      ],
+      "is_entry_point": true,
+      "is_executable": true,
+      "lines_of_code": 237,
+      "dependencies": [
+        "core/storage.py",
+        "core/assembly.py",
+        "core/__init__.py",
+        "core/discovery.py"
+      ],
+      "dependents": [
+        "scripts/process_not_started.py"
+      ]
+    },
+    "core/__init__.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/core/__init__.py",
+      "relative_path": "core/__init__.py",
+      "imports": [],
+      "internal_imports": [],
+      "external_imports": [],
+      "functions": [],
+      "classes": [],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 0,
+      "dependencies": [],
+      "dependents": [
+        "scripts/process_not_started.py",
+        "app.py"
+      ]
+    },
+    "core/assembly.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/core/assembly.py",
+      "relative_path": "core/assembly.py",
+      "imports": [
+        "import logging",
+        "import os",
+        "from typing import List, Dict, Any, Optional, Set",
+        "from dataclasses import dataclass, field, asdict",
+        "from concurrent.futures import ThreadPoolExecutor, as_completed",
+        "from datetime import datetime",
+        "import time",
+        "from models import Project, Company, CompanyRelationship, ProjectLocation, DataSource, ProcessingStage, ProcessingMetrics, RelationshipType",
+        "from services.api_client import MiningHubClient",
+        "from services.geocoding import GeocodingService, GeocodingConfig",
+        "from services.playwright_parallel_scraper import PlaywrightParallelScraper",
+        "import asyncio",
+        "from dataclasses import replace",
+        "import pandas",
+        "import os",
+        "from dataclasses import replace",
+        "from dataclasses import replace",
+        "from dataclasses import replace",
+        "from services.playwright_parallel_scraper import PlaywrightParallelScraper",
+        "import asyncio",
+        "from dataclasses import replace",
+        "from services.map_center import fetch_map_center",
+        "import json",
+        "from dataclasses import replace"
+      ],
+      "internal_imports": [
+        "services.api_client",
+        "services.geocoding",
+        "services.playwright_parallel_scraper",
+        "services.playwright_parallel_scraper",
+        "services.map_center"
+      ],
+      "external_imports": [
+        "logging",
+        "os",
+        "typing",
+        "dataclasses",
+        "concurrent.futures",
+        "datetime",
+        "time",
+        "models",
+        "asyncio",
+        "dataclasses",
+        "pandas",
+        "os",
+        "dataclasses",
+        "dataclasses",
+        "dataclasses",
+        "asyncio",
+        "dataclasses",
+        "json",
+        "dataclasses"
+      ],
+      "functions": [
+        "__init__",
+        "resolve_companies",
+        "_resolve_from_relationships",
+        "_create_company_from_api_data",
+        "_resolve_from_scraper",
+        "_create_company_from_operator",
+        "__init__",
+        "process_batch",
+        "_process_single_project",
+        "_maybe_enrich_location",
+        "_preload_api_data",
+        "_get_safe_project_data",
+        "_load_project_urls",
+        "get_metrics",
+        "close"
+      ],
+      "classes": [
+        "AssemblyResult",
+        "CompanyResolver",
+        "ProjectAssembler"
+      ],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 522,
+      "dependencies": [
+        "services/map_center.py",
+        "services/api_client.py",
+        "services/playwright_parallel_scraper.py",
+        "services/__init__.py",
+        "services/geocoding.py"
+      ],
+      "dependents": [
+        "scripts/process_not_started.py",
+        "app.py"
+      ]
+    },
+    "core/discovery.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/core/discovery.py",
+      "relative_path": "core/discovery.py",
+      "imports": [
+        "import logging",
+        "from typing import Set, List, Dict, Any",
+        "from dataclasses import dataclass",
+        "import pandas",
+        "import os",
+        "from models import DataSource, ProcessingMetrics",
+        "from services.api_client import MiningHubClient",
+        "import json"
+      ],
+      "internal_imports": [
+        "services.api_client"
+      ],
+      "external_imports": [
+        "logging",
+        "typing",
+        "dataclasses",
+        "pandas",
+        "os",
+        "models",
+        "json"
+      ],
+      "functions": [
+        "__init__",
+        "find_all_gids",
+        "_get_gids_from_api",
+        "_get_gids_from_urls",
+        "_get_all_countries",
+        "get_metrics"
+      ],
+      "classes": [
+        "DiscoveryConfig",
+        "ProjectDiscovery"
+      ],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 120,
+      "dependencies": [
+        "services/api_client.py",
+        "services/__init__.py"
+      ],
+      "dependents": [
+        "app.py"
+      ]
+    },
+    "core/models.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/core/models.py",
+      "relative_path": "core/models.py",
+      "imports": [
+        "from dataclasses import dataclass, field, asdict, replace",
+        "from typing import Dict, List, Optional, Any, Set, Union",
+        "from datetime import datetime",
+        "from enum import Enum",
+        "import json"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "dataclasses",
+        "typing",
+        "datetime",
+        "enum",
+        "json"
+      ],
+      "functions": [
+        "to_dict",
+        "from_dict",
+        "to_dict",
+        "from_dict",
+        "to_dict",
+        "from_centroid",
+        "to_dict",
+        "from_dict",
+        "add_data_source",
+        "update_stage",
+        "add_error",
+        "from_api_data",
+        "add_error",
+        "duration_seconds",
+        "success_rate",
+        "to_dict"
+      ],
+      "classes": [
+        "DataSource",
+        "ProcessingStage",
+        "RelationshipType",
+        "CompanyRelationship",
+        "Company",
+        "ProjectLocation",
+        "Project",
+        "ProcessingMetrics"
+      ],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 259,
+      "dependencies": [],
+      "dependents": []
+    },
+    "core/storage.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/core/storage.py",
+      "relative_path": "core/storage.py",
+      "imports": [
+        "import json",
+        "import os",
+        "import pandas",
+        "import logging",
+        "from typing import List, Dict, Any, Optional",
+        "from datetime import datetime",
+        "from dataclasses import asdict",
+        "from models import Project, Company, ProcessingMetrics"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "json",
+        "os",
+        "pandas",
+        "logging",
+        "typing",
+        "datetime",
+        "dataclasses",
+        "models"
+      ],
+      "functions": [
+        "__init__",
+        "save_projects",
+        "save_companies_with_projects",
+        "export_to_excel",
+        "_create_projects_dataframe",
+        "_create_companies_dataframe",
+        "_create_relationships_dataframe",
+        "_create_sources_dataframe",
+        "_create_processing_summary",
+        "save_metrics",
+        "export_all"
+      ],
+      "classes": [
+        "ProjectStorage"
+      ],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 304,
+      "dependencies": [],
+      "dependents": [
+        "scripts/process_not_started.py",
+        "app.py"
+      ]
+    },
+    "scripts/enrich_excel_projects.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/scripts/enrich_excel_projects.py",
+      "relative_path": "scripts/enrich_excel_projects.py",
+      "imports": [
+        "import os",
+        "import sys",
+        "import json",
+        "import logging",
+        "from datetime import datetime",
+        "from typing import Dict, Any, List, Optional, Tuple",
+        "import pandas",
+        "from dotenv import load_dotenv",
+        "from services.api_client import MiningHubClient",
+        "from services.map_center import fetch_map_center",
+        "from services.geocoding import GeocodingService",
+        "import shutil"
+      ],
+      "internal_imports": [
+        "services.api_client",
+        "services.map_center",
+        "services.geocoding"
+      ],
+      "external_imports": [
+        "os",
+        "sys",
+        "json",
+        "logging",
+        "datetime",
+        "typing",
+        "pandas",
+        "dotenv",
+        "shutil"
+      ],
+      "functions": [
+        "configure_logging",
+        "load_all_countries",
+        "fetch_all_projects_by_country",
+        "case_insensitive_get",
+        "ensure_columns",
+        "parse_api_location",
+        "extract_coords_from_api",
+        "enrich_excel",
+        "main"
+      ],
+      "classes": [],
+      "is_entry_point": false,
+      "is_executable": true,
+      "lines_of_code": 244,
+      "dependencies": [
+        "services/api_client.py",
+        "services/__init__.py",
+        "services/map_center.py",
+        "services/geocoding.py"
+      ],
+      "dependents": []
+    },
+    "scripts/process_not_started.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/scripts/process_not_started.py",
+      "relative_path": "scripts/process_not_started.py",
+      "imports": [
+        "import os",
+        "import sys",
+        "import logging",
+        "import pandas",
+        "from dotenv import load_dotenv",
+        "from app import AppConfig, Application",
+        "from core.storage import ProjectStorage",
+        "from core.assembly import ProjectAssembler",
+        "from core.assembly import ProjectAssembler"
+      ],
+      "internal_imports": [
+        "app",
+        "core.storage",
+        "core.assembly",
+        "core.assembly"
+      ],
+      "external_imports": [
+        "os",
+        "sys",
+        "logging",
+        "pandas",
+        "dotenv"
+      ],
+      "functions": [
+        "read_gids_from_excel",
+        "main"
+      ],
+      "classes": [],
+      "is_entry_point": false,
+      "is_executable": true,
+      "lines_of_code": 71,
+      "dependencies": [
+        "core/storage.py",
+        "core/assembly.py",
+        "app.py",
+        "core/__init__.py"
+      ],
+      "dependents": []
+    },
+    "scripts/project_audit.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/scripts/project_audit.py",
+      "relative_path": "scripts/project_audit.py",
+      "imports": [
+        "import os",
+        "import sys",
+        "import ast",
+        "import json",
+        "import importlib.util",
+        "from pathlib import Path",
+        "from typing import Dict, List, Set, Tuple, Optional",
+        "from dataclasses import dataclass, asdict",
+        "from collections import defaultdict",
+        "import re"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "os",
+        "sys",
+        "ast",
+        "json",
+        "importlib.util",
+        "pathlib",
+        "typing",
+        "dataclasses",
+        "collections",
+        "re"
+      ],
+      "functions": [
+        "save_audit_report",
+        "print_summary",
+        "main",
+        "__init__",
+        "find_python_files",
+        "parse_imports",
+        "is_internal_module",
+        "extract_definitions",
+        "is_entry_point",
+        "is_executable",
+        "count_lines",
+        "analyze_file",
+        "build_dependency_graph",
+        "resolve_import_to_files",
+        "find_circular_dependencies",
+        "trace_dependencies",
+        "generate_recommendations",
+        "run_audit",
+        "dfs",
+        "dfs"
+      ],
+      "classes": [
+        "FileAnalysis",
+        "ProjectAudit",
+        "DependencyAnalyzer"
+      ],
+      "is_entry_point": true,
+      "is_executable": true,
+      "lines_of_code": 360,
+      "dependencies": [],
+      "dependents": []
+    },
+    "scripts/run_playwright_parallel_scraper.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/scripts/run_playwright_parallel_scraper.py",
+      "relative_path": "scripts/run_playwright_parallel_scraper.py",
+      "imports": [
+        "import os",
+        "import sys",
+        "import json",
+        "import asyncio",
+        "import random",
+        "from typing import List",
+        "import pandas",
+        "from services.playwright_parallel_scraper import PlaywrightParallelScraper",
+        "import argparse"
+      ],
+      "internal_imports": [
+        "services.playwright_parallel_scraper"
+      ],
+      "external_imports": [
+        "os",
+        "sys",
+        "json",
+        "asyncio",
+        "random",
+        "typing",
+        "pandas",
+        "argparse"
+      ],
+      "functions": [
+        "load_random_gids_from_urls",
+        "main"
+      ],
+      "classes": [],
+      "is_entry_point": true,
+      "is_executable": true,
+      "lines_of_code": 53,
+      "dependencies": [
+        "services/playwright_parallel_scraper.py",
+        "services/__init__.py"
+      ],
+      "dependents": []
+    },
+    "scripts/run_playwright_scraper.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/scripts/run_playwright_scraper.py",
+      "relative_path": "scripts/run_playwright_scraper.py",
+      "imports": [
+        "import asyncio",
+        "import sys",
+        "from services.playwright_parallel_scraper import PlaywrightParallelScraper",
+        "import os",
+        "import sys",
+        "import json",
+        "import asyncio",
+        "import random",
+        "from typing import List",
+        "import pandas",
+        "from services.playwright_scraper import PlaywrightScraper",
+        "import argparse"
+      ],
+      "internal_imports": [
+        "services.playwright_parallel_scraper",
+        "services.playwright_scraper"
+      ],
+      "external_imports": [
+        "asyncio",
+        "sys",
+        "os",
+        "sys",
+        "json",
+        "asyncio",
+        "random",
+        "typing",
+        "pandas",
+        "argparse"
+      ],
+      "functions": [
+        "load_random_gids_from_urls",
+        "main"
+      ],
+      "classes": [],
+      "is_entry_point": true,
+      "is_executable": true,
+      "lines_of_code": 62,
+      "dependencies": [
+        "services/playwright_parallel_scraper.py",
+        "services/__init__.py",
+        "services/playwright_scraper.py"
+      ],
+      "dependents": []
+    },
+    "services/__init__.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/services/__init__.py",
+      "relative_path": "services/__init__.py",
+      "imports": [],
+      "internal_imports": [],
+      "external_imports": [],
+      "functions": [],
+      "classes": [],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 1,
+      "dependencies": [],
+      "dependents": [
+        "services/playwright_scraper.py",
+        "Old Scripts/mining_projects_refactored.py",
+        "core/assembly.py",
+        "scripts/run_playwright_parallel_scraper.py",
+        "scripts/enrich_excel_projects.py",
+        "scripts/run_playwright_scraper.py",
+        "core/discovery.py"
+      ]
+    },
+    "services/api_client.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/services/api_client.py",
+      "relative_path": "services/api_client.py",
+      "imports": [
+        "import requests",
+        "import logging",
+        "import time",
+        "from typing import Dict, List, Optional, Any",
+        "from dataclasses import dataclass",
+        "from requests.adapters import HTTPAdapter",
+        "from urllib3.util.retry import Retry"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "requests",
+        "logging",
+        "time",
+        "typing",
+        "dataclasses",
+        "requests.adapters",
+        "urllib3.util.retry"
+      ],
+      "functions": [
+        "__init__",
+        "get_projects_by_country",
+        "get_project_relationships",
+        "_make_request",
+        "health_check",
+        "close"
+      ],
+      "classes": [
+        "APIConfig",
+        "MiningHubClient"
+      ],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 183,
+      "dependencies": [],
+      "dependents": [
+        "core/assembly.py",
+        "core/discovery.py",
+        "scripts/enrich_excel_projects.py"
+      ]
+    },
+    "services/geocoding.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/services/geocoding.py",
+      "relative_path": "services/geocoding.py",
+      "imports": [
+        "import os",
+        "import json",
+        "import time",
+        "import logging",
+        "from typing import Optional, Dict, Any",
+        "from dataclasses import dataclass",
+        "import requests"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "os",
+        "json",
+        "time",
+        "logging",
+        "typing",
+        "dataclasses",
+        "requests"
+      ],
+      "functions": [
+        "__init__",
+        "_load_cache",
+        "_save_cache",
+        "_respect_rate_limit",
+        "reverse_geocode",
+        "forward_geocode"
+      ],
+      "classes": [
+        "GeocodingConfig",
+        "GeocodingService"
+      ],
+      "is_entry_point": false,
+      "is_executable": false,
+      "lines_of_code": 110,
+      "dependencies": [],
+      "dependents": [
+        "core/assembly.py",
+        "services/playwright_scraper.py",
+        "scripts/enrich_excel_projects.py"
+      ]
+    },
+    "services/map_center.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/services/map_center.py",
+      "relative_path": "services/map_center.py",
+      "imports": [
+        "import asyncio",
+        "import logging",
+        "from typing import Optional, Dict, Any",
+        "from playwright.async_api import async_playwright, TimeoutError",
+        "import asyncio",
+        "import logging"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "asyncio",
+        "logging",
+        "typing",
+        "playwright.async_api",
+        "asyncio",
+        "logging"
+      ],
+      "functions": [
+        "fetch_map_center"
+      ],
+      "classes": [],
+      "is_entry_point": false,
+      "is_executable": true,
+      "lines_of_code": 127,
+      "dependencies": [],
+      "dependents": [
+        "core/assembly.py",
+        "scripts/enrich_excel_projects.py"
+      ]
+    },
+    "services/playwright_parallel_scraper.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/services/playwright_parallel_scraper.py",
+      "relative_path": "services/playwright_parallel_scraper.py",
+      "imports": [
+        "import os",
+        "import asyncio",
+        "from dataclasses import dataclass, asdict",
+        "from typing import Optional, Dict, Any, List",
+        "from urllib.parse import urljoin",
+        "import re",
+        "import random",
+        "from bs4 import BeautifulSoup",
+        "from playwright.async_api import async_playwright",
+        "from playwright_stealth import stealth_async"
+      ],
+      "internal_imports": [],
+      "external_imports": [
+        "os",
+        "asyncio",
+        "dataclasses",
+        "typing",
+        "urllib.parse",
+        "re",
+        "random",
+        "bs4",
+        "playwright.async_api",
+        "playwright_stealth"
+      ],
+      "functions": [
+        "__init__",
+        "_parse_properties_table",
+        "_create_company_slug",
+        "to_dict",
+        "_to_proper_case",
+        "_norm"
+      ],
+      "classes": [
+        "ParallelScrapedProjectRecord",
+        "PlaywrightParallelScraper"
+      ],
+      "is_entry_point": false,
+      "is_executable": true,
+      "lines_of_code": 468,
+      "dependencies": [],
+      "dependents": [
+        "core/assembly.py",
+        "scripts/run_playwright_parallel_scraper.py",
+        "scripts/run_playwright_scraper.py",
+        "Old Scripts/mining_projects_refactored.py"
+      ]
+    },
+    "services/playwright_scraper.py": {
+      "filepath": "/Users/shask/Desktop/Clients/Dynamics G-Ex/Data Cleanup/services/playwright_scraper.py",
+      "relative_path": "services/playwright_scraper.py",
+      "imports": [
+        "import os",
+        "import asyncio",
+        "from dataclasses import dataclass, asdict",
+        "from typing import Optional, Dict, Any, List",
+        "from urllib.parse import urljoin",
+        "from bs4 import BeautifulSoup",
+        "from playwright.async_api import async_playwright",
+        "from playwright.async_api import TimeoutError",
+        "from services.geocoding import GeocodingService, GeocodingConfig"
+      ],
+      "internal_imports": [
+        "services.geocoding"
+      ],
+      "external_imports": [
+        "os",
+        "asyncio",
+        "dataclasses",
+        "typing",
+        "urllib.parse",
+        "bs4",
+        "playwright.async_api",
+        "playwright.async_api"
+      ],
+      "functions": [
+        "__init__",
+        "_parse_company_projects_table",
+        "_geocode_if_possible",
+        "to_dict",
+        "normalize_name"
+      ],
+      "classes": [
+        "ScrapedProjectRecord",
+        "PlaywrightScraper"
+      ],
+      "is_entry_point": false,
+      "is_executable": true,
+      "lines_of_code": 418,
+      "dependencies": [
+        "services/__init__.py",
+        "services/geocoding.py"
+      ],
+      "dependents": [
+        "scripts/run_playwright_scraper.py"
+      ]
+    }
+  },
+  "recommendations": [
+    "🗑️ Consider removing 2 unused files for cloud deployment",
+    "📦 2 large unused files could significantly reduce deployment size",
+    "📋 Project uses 42 external dependencies",
+    "🚀 13 entry points detected - consider consolidating for cloud deployment"
+  ]
+}

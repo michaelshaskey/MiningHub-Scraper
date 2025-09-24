@@ -1,0 +1,14 @@
+{
+  "total_projects": 50,
+  "completed_projects": 200,
+  "failed_projects": 0,
+  "skipped_projects": 0,
+  "api_projects": 150,
+  "scraped_projects": 0,
+  "relationships_enriched": 173,
+  "start_time": "2025-08-26T14:33:34.431852",
+  "end_time": "2025-08-26T14:37:36.637770",
+  "error_summary": {},
+  "duration_seconds": 242.205918,
+  "success_rate": 400.0
+}

@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "total_projects": 3,
+    "generated_at": "2025-08-26T14:04:58.042530",
+    "data_sources": [
+      "api",
+      "relationships"
+    ],
+    "version": "2.0"
+  },
+  "projects": [
+    {
+      "gid": "9799",
+      "name": "Byrock",
+      "location": {
+        "location_string": "New South Wales, Australia",
+        "latitude": -30.668650642,
+        "longitude": 146.067993095,
+        "country": "Australia",
+        "state": "New South Wales",
+        "mineral_district": null,
+        "area_m2": "176944.996923934000",
+        "geocoded": null,
+        "location_source": null,
+        "postcode": null,
+        "iso3166_2": null,
+        "county": null,
+        "territory": null
+      },
+      "stage": "Exploration",
+      "commodities": "Cu,Au",
+      "operator": "Altitude Minerals Ltd.",
+      "company_relationships": [
+        {
+          "company_id": "3745",
+          "company_name": "Altitude Minerals Ltd.",
+          "relationship_type": "jv",
+          "percentage": 100,
+          "ownership_id": 33801,
+          "optionee_id": null,
+          "comments": null,
+          "company_details": {
+            "id": "3745",
+            "name": "Altitude Minerals Ltd.",
+            "ticker": "ATT",
+            "exchange": "ASX",
+            "website": "https://coppersearch.com.au/",
+            "ceo": null,
+            "headquarters": null,
+            "phone": null,
+            "industry": null,
+            "sector": null,
+            "ownership_percentage": null,
+            "relationship_type": null,
+            "data_source": "relationships",
+            "fetched_at": "2025-08-26T14:04:57.327721"
+          },
+          "data_source": "relationships"
+        },
+        {
+          "company_id": "3745",
+          "company_name": "Altitude Minerals Ltd.",
+          "relationship_type": "option",
+          "percentage": null,
+          "ownership_id": 33802,
+          "optionee_id": 3745,
+          "comments": "The Deal Terms\nCopper Search and privately held Nimrod Resources Limited (NIM) have\nsigned an exclusive binding Option, Farm-in and JV agreement that allows\nCUS to earn up to a 75% interest in the Byrock Project in NSW\n• An initial consideration to NIM of $25k cash and 3,230,000 CUS shares\n(~$100k value) is due shortly, followed by project milestone share-based\npayments - preserving shareholder cash for exploration\n• The exclusive 12-month Option Period will allow CUS to complete predrilling confirmation programs and meet the minimum of $350k\nexpenditure required during the Option Period using existing Company\nfunds\n• CUS can then elect to earn a 51% interest by spending $2m over two\nyears in addition to the Option Period expenditure and form a JV\n• NIM may retain a 49% interest by electing to participate in the JV\n• If NIM elects not to participate, CUS has the Option to earn a 75%\ninterest by sole funding a further $3m expenditure, after which cofunding by percentage interest under standard JV terms prevails\n• CUS can accelerate earning to any milestone by meeting the\nexpenditure requirements early, with overspend carried forward.",
+          "company_details": {
+            "id": "3745",
+            "name": "Altitude Minerals Ltd.",
+            "ticker": "ATT",
+            "exchange": "ASX",
+            "website": "https://coppersearch.com.au/",
+            "ceo": null,
+            "headquarters": null,
+            "phone": null,
+            "industry": null,
+            "sector": null,
+            "ownership_percentage": null,
+            "relationship_type": null,
+            "data_source": "relationships",
+            "fetched_at": "2025-08-26T14:04:57.327735"
+          },
+          "data_source": "relationships"
+        },
+        {
+          "company_id": "5103",
+          "company_name": "Nimrod Resources Limited",
+          "relationship_type": "option",
+          "percentage": null,
+          "ownership_id": 33802,
+          "optionee_id": 3745,
+          "comments": "The Deal Terms\nCopper Search and privately held Nimrod Resources Limited (NIM) have\nsigned an exclusive binding Option, Farm-in and JV agreement that allows\nCUS to earn up to a 75% interest in the Byrock Project in NSW\n• An initial consideration to NIM of $25k cash and 3,230,000 CUS shares\n(~$100k value) is due shortly, followed by project milestone share-based\npayments - preserving shareholder cash for exploration\n• The exclusive 12-month Option Period will allow CUS to complete predrilling confirmation programs and meet the minimum of $350k\nexpenditure required during the Option Period using existing Company\nfunds\n• CUS can then elect to earn a 51% interest by spending $2m over two\nyears in addition to the Option Period expenditure and form a JV\n• NIM may retain a 49% interest by electing to participate in the JV\n• If NIM elects not to participate, CUS has the Option to earn a 75%\ninterest by sole funding a further $3m expenditure, after which cofunding by percentage interest under standard JV terms prevails\n• CUS can accelerate earning to any milestone by meeting the\nexpenditure requirements early, with overspend carried forward.",
+          "company_details": {
+            "id": "5103",
+            "name": "Nimrod Resources Limited",
+            "ticker": "",
+            "exchange": "",
+            "website": "https://nimrodresources.com.au/",
+            "ceo": null,
+            "headquarters": null,
+            "phone": null,
+            "industry": null,
+            "sector": null,
+            "ownership_percentage": null,
+            "relationship_type": null,
+            "data_source": "relationships",
+            "fetched_at": "2025-08-26T14:04:57.327740"
+          },
+          "data_source": "relationships"
+        }
+      ],
+      "primary_company": {
+        "id": "3745",
+        "name": "Altitude Minerals Ltd.",
+        "ticker": "ATT",
+        "exchange": "ASX",
+        "website": "https://coppersearch.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:04:57.327721"
+      },
+      "stakeholders": [],
+      "data_sources": [
+        "relationships",
+        "api"
+      ],
+      "processing_stage": "completed",
+      "project_url": "https://mininghub.com/project/byrock/9799",
+      "created_at": "2025-08-26T14:04:56.571117",
+      "updated_at": "2025-08-26T14:04:57.327845",
+      "errors": []
+    },
+    {
+      "gid": "9660",
+      "name": "Prince of Wales",
+      "location": {
+        "location_string": "New South Wales, Australia",
+        "latitude": -35.0333335,
+        "longitude": 148.05,
+        "country": "Australia",
+        "state": "New South Wales",
+        "mineral_district": null,
+        "area_m2": "1131.6024969118200000",
+        "geocoded": null,
+        "location_source": null,
+        "postcode": null,
+        "iso3166_2": null,
+        "county": null,
+        "territory": null
+      },
+      "stage": "Exploration",
+      "commodities": "Au",
+      "operator": "Koonenberry Gold Limited",
+      "company_relationships": [
+        {
+          "company_id": "4129",
+          "company_name": "Koonenberry Gold Limited",
+          "relationship_type": "jv",
+          "percentage": 100,
+          "ownership_id": 33038,
+          "optionee_id": null,
+          "comments": null,
+          "company_details": {
+            "id": "4129",
+            "name": "Koonenberry Gold Limited",
+            "ticker": "KNB",
+            "exchange": "ASX",
+            "website": "https://koonenberrygold.com.au/",
+            "ceo": null,
+            "headquarters": null,
+            "phone": null,
+            "industry": null,
+            "sector": null,
+            "ownership_percentage": null,
+            "relationship_type": null,
+            "data_source": "relationships",
+            "fetched_at": "2025-08-26T14:04:58.024365"
+          },
+          "data_source": "relationships"
+        }
+      ],
+      "primary_company": {
+        "id": "4129",
+        "name": "Koonenberry Gold Limited",
+        "ticker": "KNB",
+        "exchange": "ASX",
+        "website": "https://koonenberrygold.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:04:58.024365"
+      },
+      "stakeholders": [],
+      "data_sources": [
+        "relationships",
+        "api"
+      ],
+      "processing_stage": "completed",
+      "project_url": "https://mininghub.com/project/prince-of-wales/9660",
+      "created_at": "2025-08-26T14:04:56.571227",
+      "updated_at": "2025-08-26T14:04:58.024524",
+      "errors": []
+    },
+    {
+      "gid": "10257",
+      "name": "Three Springs",
+      "location": {
+        "location_string": "Western Australia, Australia",
+        "latitude": -29.512498865,
+        "longitude": 115.982730629,
+        "country": "Australia",
+        "state": "Western Australia",
+        "mineral_district": null,
+        "area_m2": "16756.2786900248000000",
+        "geocoded": null,
+        "location_source": null,
+        "postcode": null,
+        "iso3166_2": null,
+        "county": null,
+        "territory": null
+      },
+      "stage": "Exploration",
+      "commodities": "Au",
+      "operator": "Enegex Limited",
+      "company_relationships": [
+        {
+          "company_id": "4003",
+          "company_name": "Enegex Limited",
+          "relationship_type": "jv",
+          "percentage": 100,
+          "ownership_id": 36279,
+          "optionee_id": null,
+          "comments": null,
+          "company_details": {
+            "id": "4003",
+            "name": "Enegex Limited",
+            "ticker": "ENX",
+            "exchange": "ASX",
+            "website": "https://www.enegex.com.au",
+            "ceo": null,
+            "headquarters": null,
+            "phone": null,
+            "industry": null,
+            "sector": null,
+            "ownership_percentage": null,
+            "relationship_type": null,
+            "data_source": "relationships",
+            "fetched_at": "2025-08-26T14:04:58.041099"
+          },
+          "data_source": "relationships"
+        }
+      ],
+      "primary_company": {
+        "id": "4003",
+        "name": "Enegex Limited",
+        "ticker": "ENX",
+        "exchange": "ASX",
+        "website": "https://www.enegex.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:04:58.041099"
+      },
+      "stakeholders": [],
+      "data_sources": [
+        "relationships",
+        "api"
+      ],
+      "processing_stage": "completed",
+      "project_url": "https://mininghub.com/project/three-springs/10257",
+      "created_at": "2025-08-26T14:04:56.571325",
+      "updated_at": "2025-08-26T14:04:58.041244",
+      "errors": []
+    }
+  ]
+}

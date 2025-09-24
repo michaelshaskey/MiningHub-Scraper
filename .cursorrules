@@ -478,7 +478,7 @@ python3 debug_scraper.py
 python3 json_schema_validator.py
 
 # Analyze map endpoints (if needed)
-python3 map_endpoint_sniffer.py --iframe "https://mininghub.com/map?gid=9821&companyId=1318"
+python3 map_endpoint_sniffer.py --iframe "https://mininghub.com/map?gid=9821"
 ```
 
 ---

@@ -1,0 +1,1145 @@
+[
+  {
+    "company_id": "3658",
+    "company_name": "Alkane Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3658",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "6630",
+        "name": "Rockley Apsley",
+        "location": {
+          "location_string": "New South Wales, Australia",
+          "latitude": -33.695617602,
+          "longitude": 149.574239133,
+          "country": "Australia",
+          "state": "New South Wales",
+          "mineral_district": null,
+          "area_m2": "6030.2669536079300000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Alkane Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3658",
+            "company_name": "Alkane Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 59841,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3658",
+              "name": "Alkane Resources Limited",
+              "ticker": "ALK",
+              "exchange": "ASX",
+              "website": "https://www.alkane.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.068833"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3658",
+          "name": "Alkane Resources Limited",
+          "ticker": "ALK",
+          "exchange": "ASX",
+          "website": "https://www.alkane.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.068833"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/rockley-apsley/6630",
+        "created_at": "2025-08-26T14:21:53.589959",
+        "updated_at": "2025-08-26T14:21:55.069003",
+        "errors": []
+      },
+      {
+        "gid": "6631",
+        "name": "Armstrongs",
+        "location": {
+          "location_string": "New South Wales, Australia",
+          "latitude": -33.220223885,
+          "longitude": 148.105959472,
+          "country": "Australia",
+          "state": "New South Wales",
+          "mineral_district": null,
+          "area_m2": "2022.4617290516200000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Alkane Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3658",
+            "company_name": "Alkane Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 59843,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3658",
+              "name": "Alkane Resources Limited",
+              "ticker": "ALK",
+              "exchange": "ASX",
+              "website": "https://www.alkane.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.830654"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3658",
+          "name": "Alkane Resources Limited",
+          "ticker": "ALK",
+          "exchange": "ASX",
+          "website": "https://www.alkane.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.830654"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/armstrongs/6631",
+        "created_at": "2025-08-26T14:21:55.080148",
+        "updated_at": "2025-08-26T14:21:55.830754",
+        "errors": []
+      }
+    ],
+    "total_projects": 2,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3658",
+        "name": "Alkane Resources Limited",
+        "ticker": "ALK",
+        "exchange": "ASX",
+        "website": "https://www.alkane.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:55.068833"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.647480"
+    }
+  },
+  {
+    "company_id": "4100",
+    "company_name": "Infinity Metals Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4100",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "10156",
+        "name": "Bindi",
+        "location": {
+          "location_string": "Victoria, Australia",
+          "latitude": -37.088408188,
+          "longitude": 147.841295362,
+          "country": "Australia",
+          "state": "Victoria",
+          "mineral_district": null,
+          "area_m2": "43303.036039509100",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Au",
+        "operator": "Infinity Metals Limited",
+        "company_relationships": [
+          {
+            "company_id": "4100",
+            "company_name": "Infinity Metals Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 35739,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4100",
+              "name": "Infinity Metals Limited",
+              "ticker": "INF",
+              "exchange": "ASX",
+              "website": "https://www.infinitylithium.com",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:54.355645"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4100",
+          "name": "Infinity Metals Limited",
+          "ticker": "INF",
+          "exchange": "ASX",
+          "website": "https://www.infinitylithium.com",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:54.355645"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/bindi/10156",
+        "created_at": "2025-08-26T14:21:53.590337",
+        "updated_at": "2025-08-26T14:21:54.355960",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4100",
+        "name": "Infinity Metals Limited",
+        "ticker": "INF",
+        "exchange": "ASX",
+        "website": "https://www.infinitylithium.com",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:54.355645"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.646688"
+    }
+  },
+  {
+    "company_id": "2029",
+    "company_name": "TinOne Resources Inc.",
+    "company_url": "https://mininghub.com/company-profile?gid=2029",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "5076",
+        "name": "EL8903 Emmaville",
+        "location": {
+          "location_string": "New South Wales, Australia",
+          "latitude": -29.283794411,
+          "longitude": 151.728406917,
+          "country": "Australia",
+          "state": "New South Wales",
+          "mineral_district": null,
+          "area_m2": "0.000000000000000000000000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Sn,W",
+        "operator": "TinOne Resources Inc.",
+        "company_relationships": [
+          {
+            "company_id": "2029",
+            "company_name": "TinOne Resources Inc.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 12673,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2029",
+              "name": "TinOne Resources Inc.",
+              "ticker": "TORC",
+              "exchange": "TSXV",
+              "website": "https://tinone.ca/",
+              "ceo": "Michael A. Konnert",
+              "headquarters": "Vancouver",
+              "phone": null,
+              "industry": "Gold",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.066015"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2029",
+          "name": "TinOne Resources Inc.",
+          "ticker": "TORC",
+          "exchange": "TSXV",
+          "website": "https://tinone.ca/",
+          "ceo": "Michael A. Konnert",
+          "headquarters": "Vancouver",
+          "phone": null,
+          "industry": "Gold",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.066015"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/el8903-emmaville/5076",
+        "created_at": "2025-08-26T14:21:53.590235",
+        "updated_at": "2025-08-26T14:21:55.066700",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2029",
+        "name": "TinOne Resources Inc.",
+        "ticker": "TORC",
+        "exchange": "TSXV",
+        "website": "https://tinone.ca/",
+        "ceo": "Michael A. Konnert",
+        "headquarters": "Vancouver",
+        "phone": null,
+        "industry": "Gold",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:55.066015"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.647118"
+    }
+  },
+  {
+    "company_id": "4419",
+    "company_name": "West Cobar Metals Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4419",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "6975",
+        "name": "Salazar",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -33.021331991,
+          "longitude": 122.777481474,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "21670.635359493700",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "West Cobar Metals Limited",
+        "company_relationships": [
+          {
+            "company_id": "4419",
+            "company_name": "West Cobar Metals Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 57780,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4419",
+              "name": "West Cobar Metals Limited",
+              "ticker": "WC1",
+              "exchange": "ASX",
+              "website": "https://www.westcobarmetals.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.079796"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4419",
+          "name": "West Cobar Metals Limited",
+          "ticker": "WC1",
+          "exchange": "ASX",
+          "website": "https://www.westcobarmetals.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.079796"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/salazar/6975",
+        "created_at": "2025-08-26T14:21:53.590124",
+        "updated_at": "2025-08-26T14:21:55.080013",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4419",
+        "name": "West Cobar Metals Limited",
+        "ticker": "WC1",
+        "exchange": "ASX",
+        "website": "https://www.westcobarmetals.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:55.079796"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.647942"
+    }
+  },
+  {
+    "company_id": "4050",
+    "company_name": "Global Uranium And Enrichment Ltd",
+    "company_url": "https://mininghub.com/company-profile?gid=4050",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "8789",
+        "name": "Enmore",
+        "location": {
+          "location_string": "New South Wales, Australia",
+          "latitude": -30.758595808,
+          "longitude": 151.81833587,
+          "country": "Australia",
+          "state": "New South Wales",
+          "mineral_district": null,
+          "area_m2": "13443.7034065167000000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Au,Cu",
+        "operator": "Koonenberry Gold Limited",
+        "company_relationships": [
+          {
+            "company_id": "4050",
+            "company_name": "Global Uranium And Enrichment Ltd",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 34329,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4050",
+              "name": "Global Uranium And Enrichment Ltd",
+              "ticker": "GUE",
+              "exchange": "ASX",
+              "website": "https://www.globaluranium.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.108634"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "4050",
+            "company_name": "Global Uranium And Enrichment Ltd",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 34330,
+            "optionee_id": 4129,
+            "comments": "Agreements\n Koonenberry Gold Limited (“KNB” or “the Company”) has today entered into conditional\nseparate binding agreements to acquire:\no Enmore Gold Project from Global Uranium & Enrichment Ltd (ASX:GUE) (“GUE”),\ncomprising one granted EL in the New England Fold Belt, in New South Wales; and\no Lachlan Projects through the acquisition of the entire issued capital of Gilmore Metals\nPty. Ltd. (“Gilmore Metals”) from the shareholders of Gilmore Metals.\nConsideration\n Consideration for each of the acquisitions comprises the following (together “the\nConsideration Shares”):\no GUE to receive 35,000,000 fully paid ordinary shares in KNB (“KNB Shares”); and\no Shareholders of Gilmore Metals to receive 95,000,000 KNB Shares.\n All Consideration Shares are subject to 12 month voluntary escrow;\n At completion of the acquisition of Gilmore Metals, Mr Darren Glover, a co-founder and\nDirector of Gilmore, will join the board of KNB; and\n Key employees from Gilmore Metals to be onboarded with KNB, to retain their knowledge of\nthe Lachlan projects and to provide geological support to the Company.",
+            "company_details": {
+              "id": "4050",
+              "name": "Global Uranium And Enrichment Ltd",
+              "ticker": "GUE",
+              "exchange": "ASX",
+              "website": "https://www.globaluranium.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.108651"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "4129",
+            "company_name": "Koonenberry Gold Limited",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 34330,
+            "optionee_id": 4129,
+            "comments": "Agreements\n Koonenberry Gold Limited (“KNB” or “the Company”) has today entered into conditional\nseparate binding agreements to acquire:\no Enmore Gold Project from Global Uranium & Enrichment Ltd (ASX:GUE) (“GUE”),\ncomprising one granted EL in the New England Fold Belt, in New South Wales; and\no Lachlan Projects through the acquisition of the entire issued capital of Gilmore Metals\nPty. Ltd. (“Gilmore Metals”) from the shareholders of Gilmore Metals.\nConsideration\n Consideration for each of the acquisitions comprises the following (together “the\nConsideration Shares”):\no GUE to receive 35,000,000 fully paid ordinary shares in KNB (“KNB Shares”); and\no Shareholders of Gilmore Metals to receive 95,000,000 KNB Shares.\n All Consideration Shares are subject to 12 month voluntary escrow;\n At completion of the acquisition of Gilmore Metals, Mr Darren Glover, a co-founder and\nDirector of Gilmore, will join the board of KNB; and\n Key employees from Gilmore Metals to be onboarded with KNB, to retain their knowledge of\nthe Lachlan projects and to provide geological support to the Company.",
+            "company_details": {
+              "id": "4129",
+              "name": "Koonenberry Gold Limited",
+              "ticker": "KNB",
+              "exchange": "ASX",
+              "website": "https://koonenberrygold.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.108660"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4050",
+          "name": "Global Uranium And Enrichment Ltd",
+          "ticker": "GUE",
+          "exchange": "ASX",
+          "website": "https://www.globaluranium.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.108634"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/enmore/8789",
+        "created_at": "2025-08-26T14:21:54.356137",
+        "updated_at": "2025-08-26T14:21:55.108807",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4050",
+        "name": "Global Uranium And Enrichment Ltd",
+        "ticker": "GUE",
+        "exchange": "ASX",
+        "website": "https://www.globaluranium.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:55.108634"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.648369"
+    }
+  },
+  {
+    "company_id": "3239",
+    "company_name": "Power Metal Resources",
+    "company_url": "https://mininghub.com/company-profile?gid=3239",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "5627",
+        "name": "Ripon Hills",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -21.188333333,
+          "longitude": 120.795,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "4790.4359301790200000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Au,Cu",
+        "operator": "First Development Resources",
+        "company_relationships": [
+          {
+            "company_id": "3239",
+            "company_name": "Power Metal Resources",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 15720,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3239",
+              "name": "Power Metal Resources",
+              "ticker": null,
+              "exchange": null,
+              "website": "https://www.powermetalresources.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.813911"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3239",
+          "name": "Power Metal Resources",
+          "ticker": null,
+          "exchange": null,
+          "website": "https://www.powermetalresources.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.813911"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/ripon-hills/5627",
+        "created_at": "2025-08-26T14:21:55.067020",
+        "updated_at": "2025-08-26T14:21:55.814013",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3239",
+        "name": "Power Metal Resources",
+        "ticker": null,
+        "exchange": null,
+        "website": "https://www.powermetalresources.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:55.813911"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.649076"
+    }
+  },
+  {
+    "company_id": "4116",
+    "company_name": "Kaili Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4116",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "9878",
+        "name": "Coodalya",
+        "location": {
+          "location_string": "South Australia, Australia",
+          "latitude": -34.940177916,
+          "longitude": 139.870380498,
+          "country": "Australia",
+          "state": "South Australia",
+          "mineral_district": null,
+          "area_m2": "40830.684841128000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "REE",
+        "operator": "Kaili Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "4116",
+            "company_name": "Kaili Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 34178,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4116",
+              "name": "Kaili Resources Limited",
+              "ticker": "KLR",
+              "exchange": "ASX",
+              "website": "http://www.kailigroup.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.816143"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4116",
+          "name": "Kaili Resources Limited",
+          "ticker": "KLR",
+          "exchange": "ASX",
+          "website": "http://www.kailigroup.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.816143"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/coodalya/9878",
+        "created_at": "2025-08-26T14:21:55.069131",
+        "updated_at": "2025-08-26T14:21:55.816187",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4116",
+        "name": "Kaili Resources Limited",
+        "ticker": "KLR",
+        "exchange": "ASX",
+        "website": "http://www.kailigroup.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:55.816143"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.649514"
+    }
+  },
+  {
+    "company_id": "1990",
+    "company_name": "Cullen Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=1990",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "9910",
+        "name": "Bromus South",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -32.376600169,
+          "longitude": 121.695415873,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "9012.2332183598300000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Au,Li",
+        "operator": "Cullen Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "1990",
+            "company_name": "Cullen Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 34417,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1990",
+              "name": "Cullen Resources Limited",
+              "ticker": "CUL",
+              "exchange": "ASX",
+              "website": "https://cullenresources.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:55.852352"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "1990",
+          "name": "Cullen Resources Limited",
+          "ticker": "CUL",
+          "exchange": "ASX",
+          "website": "https://cullenresources.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:55.852352"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/bromus-south/9910",
+        "created_at": "2025-08-26T14:21:55.108939",
+        "updated_at": "2025-08-26T14:21:55.852501",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "1990",
+        "name": "Cullen Resources Limited",
+        "ticker": "CUL",
+        "exchange": "ASX",
+        "website": "https://cullenresources.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:55.852352"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.650122"
+    }
+  },
+  {
+    "company_id": "5406",
+    "company_name": "Goldbridge SL Pty Ltd",
+    "company_url": "https://mininghub.com/company-profile?gid=5406",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "10690",
+        "name": "Forrestania",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -32.287268924,
+          "longitude": 119.656781218,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "16430.2400064015000000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Au",
+        "operator": "Classic Minerals Ltd",
+        "company_relationships": [
+          {
+            "company_id": "5406",
+            "company_name": "Goldbridge SL Pty Ltd",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 38746,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "5406",
+              "name": "Goldbridge SL Pty Ltd",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:56.636337"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "5406",
+            "company_name": "Goldbridge SL Pty Ltd",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 38747,
+            "optionee_id": 3940,
+            "comments": "Classic has entered into a Binding Heads of Agreement with Goldbridge SL Pty Ltd (A.C.N. 635 627\n235) (Goldbridge) to acquire a package of highly strategic tenements (see table below) adjoining Classic’s\nForrestania Gold Project. The agreement covers an area of approximately 147.68km², surrounding the\nCompany’s key gold resources at Lady Ada and Lady Magdalene.\nThe proposed acquisition represents a significant value-accretive opportunity, expanding Classic’s\nexploration footprint and delivering strong geological continuity with its core assets. The tenements\ncontain, as determined by past exploration, multiple high-priority targets across well-endowed\ngreenstone corridors, offering both near-term drilling potential and long-term resource growth upside.\nClassic is confident of being able to raise funds through Placements and/or a Rights Issue to pay the\npurchase price for these tenements. The Goldbridge acquisition consolidates Classic’s control over key\ngeological corridors at Forrestania. It aligns with the Company’s growth strategy by unlocking immediate\ndrill targets and expanding long-term resource potential across a cohesive tenement package.\nThe key terms of the Binding HoA are:\n• Total consideration of $400,000.00;\no $50,000.00 non-refundable deposit and\no $350,000.00 payable after due diligence and regulatory approvals.\no Classic will have 3 months to complete the due diligence process.\n• 2.50% Net Smelter Return (NSR) Royalty on any gold produced from the acquired tenements.\n• Completion is subject to the satisfaction (or waiver) of standard conditions precedent for a\ntransaction of this nature.\n• Parties are committed to satisfy the conditions precedent in a timely manner and, in any event,\nprior to 15 September 2025 (or other such date as agreed).",
+            "company_details": {
+              "id": "5406",
+              "name": "Goldbridge SL Pty Ltd",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:56.636397"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "3940",
+            "company_name": "Classic Minerals Ltd",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 38747,
+            "optionee_id": 3940,
+            "comments": "Classic has entered into a Binding Heads of Agreement with Goldbridge SL Pty Ltd (A.C.N. 635 627\n235) (Goldbridge) to acquire a package of highly strategic tenements (see table below) adjoining Classic’s\nForrestania Gold Project. The agreement covers an area of approximately 147.68km², surrounding the\nCompany’s key gold resources at Lady Ada and Lady Magdalene.\nThe proposed acquisition represents a significant value-accretive opportunity, expanding Classic’s\nexploration footprint and delivering strong geological continuity with its core assets. The tenements\ncontain, as determined by past exploration, multiple high-priority targets across well-endowed\ngreenstone corridors, offering both near-term drilling potential and long-term resource growth upside.\nClassic is confident of being able to raise funds through Placements and/or a Rights Issue to pay the\npurchase price for these tenements. The Goldbridge acquisition consolidates Classic’s control over key\ngeological corridors at Forrestania. It aligns with the Company’s growth strategy by unlocking immediate\ndrill targets and expanding long-term resource potential across a cohesive tenement package.\nThe key terms of the Binding HoA are:\n• Total consideration of $400,000.00;\no $50,000.00 non-refundable deposit and\no $350,000.00 payable after due diligence and regulatory approvals.\no Classic will have 3 months to complete the due diligence process.\n• 2.50% Net Smelter Return (NSR) Royalty on any gold produced from the acquired tenements.\n• Completion is subject to the satisfaction (or waiver) of standard conditions precedent for a\ntransaction of this nature.\n• Parties are committed to satisfy the conditions precedent in a timely manner and, in any event,\nprior to 15 September 2025 (or other such date as agreed).",
+            "company_details": {
+              "id": "3940",
+              "name": "Classic Minerals Ltd",
+              "ticker": "CLZ",
+              "exchange": "ASX",
+              "website": "https://www.classicminerals.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T14:21:56.636412"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "5406",
+          "name": "Goldbridge SL Pty Ltd",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T14:21:56.636337"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/forrestania/10690",
+        "created_at": "2025-08-26T14:21:55.814076",
+        "updated_at": "2025-08-26T14:21:56.637028",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "5406",
+        "name": "Goldbridge SL Pty Ltd",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T14:21:56.636337"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T14:21:56.650457"
+    }
+  }
+]

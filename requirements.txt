@@ -1,0 +1,35 @@
+# MiningHub Data Processor - 12/15-Factor Architecture
+# Production dependencies
+
+# Core dependencies
+python-dotenv>=1.0.0         # Factor 3: Config
+requests>=2.28.0              # API client
+pandas>=1.5.0                 # Data processing
+openpyxl>=3.0.0              # Excel file handling
+
+# Optional database support (Factor 4: Backing Services)
+# Uncomment if using database storage
+# psycopg2-binary>=2.9.0      # PostgreSQL
+# redis>=4.5.0                # Redis for caching
+# sqlalchemy>=2.0.0           # ORM
+
+# Development and testing
+pytest>=7.0.0                 # Testing framework
+pytest-cov>=4.0.0            # Coverage reporting
+
+# Web scraping (for scraper service)
+selenium>=4.0.0
+beautifulsoup4>=4.11.0
+webdriver-manager>=3.8.0
+
+# Monitoring and observability (Factor 13: Telemetry)
+# Uncomment for production monitoring
+# prometheus-client>=0.16.0   # Metrics
+# structlog>=22.0.0           # Structured logging
+
+# Data validation
+jsonschema>=4.17.0
+
+# Utilities
+tqdm>=4.64.0                  # Progress bars
+psutil>=5.9.0                 # System monitoring

@@ -1,0 +1,4648 @@
+[
+  {
+    "company_id": "257",
+    "company_name": "Newmont Corporation",
+    "company_url": "https://mininghub.com/company-profile?gid=257",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "482",
+        "name": "Brucejack",
+        "location": {
+          "location_string": "British Columbia, Canada",
+          "latitude": 56.423235234,
+          "longitude": -129.861532816,
+          "country": "Canada",
+          "state": "British Columbia",
+          "mineral_district": "Golden Horseshoe,Golden Triangle,Stikine Terrane",
+          "area_m2": "122432.260042917000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Production",
+        "commodities": "Au,Ag",
+        "operator": "Newmont Corporation",
+        "company_relationships": [
+          {
+            "company_id": "257",
+            "company_name": "Newmont Corporation",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 28265,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "257",
+              "name": "Newmont Corporation",
+              "ticker": "NGT",
+              "exchange": "TSX",
+              "website": "https://www.newmont.com",
+              "ceo": "Thomas Ronald Palmer",
+              "headquarters": "Denver",
+              "phone": null,
+              "industry": "Gold",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.452442"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "3562",
+            "company_name": "Nations Royalty Corp.",
+            "relationship_type": "nsr",
+            "percentage": 0,
+            "ownership_id": 28266,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3562",
+              "name": "Nations Royalty Corp.",
+              "ticker": "NRC",
+              "exchange": "TSXV",
+              "website": "https://nationsroyalty.ca/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.452454"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "257",
+          "name": "Newmont Corporation",
+          "ticker": "NGT",
+          "exchange": "TSX",
+          "website": "https://www.newmont.com",
+          "ceo": "Thomas Ronald Palmer",
+          "headquarters": "Denver",
+          "phone": null,
+          "industry": "Gold",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:57.452442"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/brucejack/482",
+        "created_at": "2025-08-26T15:56:55.842774",
+        "updated_at": "2025-08-26T15:56:57.452841",
+        "errors": []
+      },
+      {
+        "gid": "652",
+        "name": "Castle",
+        "location": {
+          "location_string": "British Columbia, Canada",
+          "latitude": 57.791133853,
+          "longitude": -130.308277384,
+          "country": "Canada",
+          "state": "British Columbia",
+          "mineral_district": "Golden Horseshoe,Golden Triangle,Stikine Terrane",
+          "area_m2": "18923.8011788874000000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Au,Ag,Cu",
+        "operator": "Newmont Corporation",
+        "company_relationships": [
+          {
+            "company_id": "257",
+            "company_name": "Newmont Corporation",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 5411,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "257",
+              "name": "Newmont Corporation",
+              "ticker": "NGT",
+              "exchange": "TSX",
+              "website": "https://www.newmont.com",
+              "ceo": "Thomas Ronald Palmer",
+              "headquarters": "Denver",
+              "phone": null,
+              "industry": "Gold",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.197107"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "257",
+          "name": "Newmont Corporation",
+          "ticker": "NGT",
+          "exchange": "TSX",
+          "website": "https://www.newmont.com",
+          "ceo": "Thomas Ronald Palmer",
+          "headquarters": "Denver",
+          "phone": null,
+          "industry": "Gold",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:58.197107"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/castle/652",
+        "created_at": "2025-08-26T15:56:57.440879",
+        "updated_at": "2025-08-26T15:56:58.197459",
+        "errors": []
+      }
+    ],
+    "total_projects": 2,
+    "additional_company_data": {
+      "company_info": {
+        "id": "257",
+        "name": "Newmont Corporation",
+        "ticker": "NGT",
+        "exchange": "TSX",
+        "website": "https://www.newmont.com",
+        "ceo": "Thomas Ronald Palmer",
+        "headquarters": "Denver",
+        "phone": null,
+        "industry": "Gold",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:57.452442"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.470627"
+    }
+  },
+  {
+    "company_id": "1962",
+    "company_name": "Nouveau Monde Graphite Inc.",
+    "company_url": "https://mininghub.com/company-profile?gid=1962",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "5242",
+        "name": "Matawinie Mine",
+        "location": {
+          "location_string": "Quebec, Canada",
+          "latitude": 46.630495716,
+          "longitude": -73.960496946,
+          "country": "Canada",
+          "state": "Quebec",
+          "mineral_district": null,
+          "area_m2": "8271.7502500893200000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Development",
+        "commodities": "Graphite",
+        "operator": "Nouveau Monde Graphite Inc.",
+        "company_relationships": [
+          {
+            "company_id": "1962",
+            "company_name": "Nouveau Monde Graphite Inc.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 13664,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1962",
+              "name": "Nouveau Monde Graphite Inc.",
+              "ticker": "NOU",
+              "exchange": "TSX",
+              "website": "https://www.nmg.com",
+              "ceo": "Eric Desaulniers",
+              "headquarters": "Saint-Michel-des-Saints",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:01.249455"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "1962",
+          "name": "Nouveau Monde Graphite Inc.",
+          "ticker": "NOU",
+          "exchange": "TSX",
+          "website": "https://www.nmg.com",
+          "ceo": "Eric Desaulniers",
+          "headquarters": "Saint-Michel-des-Saints",
+          "phone": null,
+          "industry": "Other Industrial Metals & Mining",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:01.249455"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/matawinie-mine/5242",
+        "created_at": "2025-08-26T15:57:00.490144",
+        "updated_at": "2025-08-26T15:57:01.249602",
+        "errors": []
+      },
+      {
+        "gid": "13138",
+        "name": "Becancour Battery Materials Plant",
+        "location": {
+          "location_string": null,
+          "latitude": 46.377322659,
+          "longitude": -72.375395684,
+          "country": "Canada",
+          "state": "Quebec",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "CA-QC",
+          "county": "Bécancour (MRC)",
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Nouveau Monde Graphite Inc.",
+        "company_relationships": [
+          {
+            "company_id": "1962",
+            "company_name": "Nouveau Monde Graphite Inc.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 46867,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1962",
+              "name": "Nouveau Monde Graphite Inc.",
+              "ticker": "NOU",
+              "exchange": "TSX",
+              "website": "https://www.nmg.com",
+              "ceo": "Eric Desaulniers",
+              "headquarters": "Saint-Michel-des-Saints",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:40.948132"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "1962",
+          "name": "Nouveau Monde Graphite Inc.",
+          "ticker": "NOU",
+          "exchange": "TSX",
+          "website": "https://www.nmg.com",
+          "ceo": "Eric Desaulniers",
+          "headquarters": "Saint-Michel-des-Saints",
+          "phone": null,
+          "industry": "Other Industrial Metals & Mining",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:40.948132"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/becancour-battery-materials-plant/13138",
+        "created_at": "2025-08-26T15:59:02.428375",
+        "updated_at": "2025-08-26T15:59:07.287638",
+        "errors": []
+      }
+    ],
+    "total_projects": 2,
+    "additional_company_data": {
+      "company_info": {
+        "id": "1962",
+        "name": "Nouveau Monde Graphite Inc.",
+        "ticker": "NOU",
+        "exchange": "TSX",
+        "website": "https://www.nmg.com",
+        "ceo": "Eric Desaulniers",
+        "headquarters": "Saint-Michel-des-Saints",
+        "phone": null,
+        "industry": "Other Industrial Metals & Mining",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:01.249455"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.473045"
+    }
+  },
+  {
+    "company_id": "2079",
+    "company_name": "Viridis Mining And Minerals Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=2079",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "2333",
+        "name": "Uist",
+        "location": {
+          "location_string": "Nunavut, Canada",
+          "latitude": 65.214467683,
+          "longitude": -107.95426681,
+          "country": "Canada",
+          "state": "Nunavut",
+          "mineral_district": null,
+          "area_m2": "1962.3549447059600000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Au",
+        "operator": "Viridis Mining And Minerals Limited",
+        "company_relationships": [
+          {
+            "company_id": "404",
+            "company_name": "Silver Range Resources Ltd.",
+            "relationship_type": "jv",
+            "percentage": 49,
+            "ownership_id": 14708,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "404",
+              "name": "Silver Range Resources Ltd.",
+              "ticker": "SNG",
+              "exchange": "TSXV",
+              "website": "https://silverrangeresources.com/",
+              "ceo": "Michael A. Power",
+              "headquarters": "Vancouver",
+              "phone": "6046872522",
+              "industry": "Other Precious Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:56.697463"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "2079",
+            "company_name": "Viridis Mining And Minerals Limited",
+            "relationship_type": "jv",
+            "percentage": 51,
+            "ownership_id": 14709,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2079",
+              "name": "Viridis Mining And Minerals Limited",
+              "ticker": "VMM",
+              "exchange": "ASX",
+              "website": "https://www.viridismining.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:56.697473"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "404",
+            "company_name": "Silver Range Resources Ltd.",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 14710,
+            "optionee_id": 2079,
+            "comments": "",
+            "company_details": {
+              "id": "404",
+              "name": "Silver Range Resources Ltd.",
+              "ticker": "SNG",
+              "exchange": "TSXV",
+              "website": "https://silverrangeresources.com/",
+              "ceo": "Michael A. Power",
+              "headquarters": "Vancouver",
+              "phone": "6046872522",
+              "industry": "Other Precious Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:56.697478"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "2079",
+            "company_name": "Viridis Mining And Minerals Limited",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 14710,
+            "optionee_id": 2079,
+            "comments": "",
+            "company_details": {
+              "id": "2079",
+              "name": "Viridis Mining And Minerals Limited",
+              "ticker": "VMM",
+              "exchange": "ASX",
+              "website": "https://www.viridismining.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:56.697482"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2079",
+          "name": "Viridis Mining And Minerals Limited",
+          "ticker": "VMM",
+          "exchange": "ASX",
+          "website": "https://www.viridismining.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:56.697473"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/uist/2333",
+        "created_at": "2025-08-26T15:56:55.843090",
+        "updated_at": "2025-08-26T15:56:56.697571",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2079",
+        "name": "Viridis Mining And Minerals Limited",
+        "ticker": "VMM",
+        "exchange": "ASX",
+        "website": "https://www.viridismining.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:56.697473"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.469927"
+    }
+  },
+  {
+    "company_id": "2682",
+    "company_name": "Rapid Critical  Metals Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=2682",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "10731",
+        "name": "Webbs",
+        "location": {
+          "location_string": "New South Wales, Australia",
+          "latitude": -29.35,
+          "longitude": 151.55,
+          "country": "Australia",
+          "state": "New South Wales",
+          "mineral_district": null,
+          "area_m2": "1203.1984470998000000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Ag",
+        "operator": "Rapid Critical  Metals Limited",
+        "company_relationships": [
+          {
+            "company_id": "2682",
+            "company_name": "Rapid Critical  Metals Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 38913,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2682",
+              "name": "Rapid Critical  Metals Limited",
+              "ticker": "RCM",
+              "exchange": "ASX",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.440590"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2682",
+          "name": "Rapid Critical  Metals Limited",
+          "ticker": "RCM",
+          "exchange": "ASX",
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:57.440590"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/webbs/10731",
+        "created_at": "2025-08-26T15:56:56.697645",
+        "updated_at": "2025-08-26T15:56:57.440753",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2682",
+        "name": "Rapid Critical  Metals Limited",
+        "ticker": "RCM",
+        "exchange": "ASX",
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:57.440590"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.470271"
+    }
+  },
+  {
+    "company_id": "484",
+    "company_name": "Sun Summit Minerals Corp.",
+    "company_url": "https://mininghub.com/company-profile?gid=484",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "180",
+        "name": "CR",
+        "location": {
+          "location_string": "British Columbia, Canada",
+          "latitude": 54.296016513,
+          "longitude": -126.829900801,
+          "country": "Canada",
+          "state": "British Columbia",
+          "mineral_district": "Stikine Terrane",
+          "area_m2": "8964.2617591333900000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Au",
+        "operator": "Sun Summit Minerals Corp.",
+        "company_relationships": [
+          {
+            "company_id": "484",
+            "company_name": "Sun Summit Minerals Corp.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 11395,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "484",
+              "name": "Sun Summit Minerals Corp.",
+              "ticker": "SMN",
+              "exchange": "TSXV",
+              "website": "https://sunsummitminerals.com/",
+              "ceo": "Robert D. Willis",
+              "headquarters": "Vancouver",
+              "phone": "1-778-588-9606",
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.446344"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "142",
+            "company_name": "Teck Resources Limited",
+            "relationship_type": "nsr",
+            "percentage": 1,
+            "ownership_id": 11396,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "142",
+              "name": "Teck Resources Limited",
+              "ticker": "TECK.A",
+              "exchange": "TSX",
+              "website": "https://www.teck.com/",
+              "ceo": "Donald R. Lindsay",
+              "headquarters": "Vancouver",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.446359"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "484",
+          "name": "Sun Summit Minerals Corp.",
+          "ticker": "SMN",
+          "exchange": "TSXV",
+          "website": "https://sunsummitminerals.com/",
+          "ceo": "Robert D. Willis",
+          "headquarters": "Vancouver",
+          "phone": "1-778-588-9606",
+          "industry": "Other Industrial Metals & Mining",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:57.446344"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/cr/180",
+        "created_at": "2025-08-26T15:56:55.843148",
+        "updated_at": "2025-08-26T15:56:57.446866",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "484",
+        "name": "Sun Summit Minerals Corp.",
+        "ticker": "SMN",
+        "exchange": "TSXV",
+        "website": "https://sunsummitminerals.com/",
+        "ceo": "Robert D. Willis",
+        "headquarters": "Vancouver",
+        "phone": "1-778-588-9606",
+        "industry": "Other Industrial Metals & Mining",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:57.446344"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.470421"
+    }
+  },
+  {
+    "company_id": "1988",
+    "company_name": "Pan American Energy Corp.",
+    "company_url": "https://mininghub.com/company-profile?gid=1988",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "4357",
+        "name": "Big Mack",
+        "location": {
+          "location_string": "Ontario, Canada",
+          "latitude": 50.271376973,
+          "longitude": -94.591606103,
+          "country": "Canada",
+          "state": "Ontario",
+          "mineral_district": null,
+          "area_m2": "198.5412975549860000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Li",
+        "operator": "Pan American Energy Corp.",
+        "company_relationships": [
+          {
+            "company_id": "1988",
+            "company_name": "Pan American Energy Corp.",
+            "relationship_type": "jv",
+            "percentage": 75,
+            "ownership_id": 31040,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1988",
+              "name": "Pan American Energy Corp.",
+              "ticker": "PNRG",
+              "exchange": "CSE",
+              "website": "https://panam-energy.com/",
+              "ceo": "Mark A. McLeary",
+              "headquarters": "Calgary",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.466416"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "4962",
+            "company_name": "Magabra Resources",
+            "relationship_type": "jv",
+            "percentage": 25,
+            "ownership_id": 31041,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4962",
+              "name": "Magabra Resources",
+              "ticker": "",
+              "exchange": "",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.466427"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "1988",
+            "company_name": "Pan American Energy Corp.",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 31042,
+            "optionee_id": 1988,
+            "comments": "The Company has executed an option agreement in Canada with Magabra Resources pursuant to which it has acquired a 75% interest in the Big Mack Lithium Project, 80 km north of Kenora, Ontario. The Company can earn an additional 15% interest in Big Mack, for a total of 90% interest.",
+            "company_details": {
+              "id": "1988",
+              "name": "Pan American Energy Corp.",
+              "ticker": "PNRG",
+              "exchange": "CSE",
+              "website": "https://panam-energy.com/",
+              "ceo": "Mark A. McLeary",
+              "headquarters": "Calgary",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.466435"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "4962",
+            "company_name": "Magabra Resources",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 31042,
+            "optionee_id": 1988,
+            "comments": "The Company has executed an option agreement in Canada with Magabra Resources pursuant to which it has acquired a 75% interest in the Big Mack Lithium Project, 80 km north of Kenora, Ontario. The Company can earn an additional 15% interest in Big Mack, for a total of 90% interest.",
+            "company_details": {
+              "id": "4962",
+              "name": "Magabra Resources",
+              "ticker": "",
+              "exchange": "",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:57.466442"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "1988",
+          "name": "Pan American Energy Corp.",
+          "ticker": "PNRG",
+          "exchange": "CSE",
+          "website": "https://panam-energy.com/",
+          "ceo": "Mark A. McLeary",
+          "headquarters": "Calgary",
+          "phone": null,
+          "industry": "Other Industrial Metals & Mining",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:57.466416"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/big-mack/4357",
+        "created_at": "2025-08-26T15:56:55.842421",
+        "updated_at": "2025-08-26T15:56:57.466568",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "1988",
+        "name": "Pan American Energy Corp.",
+        "ticker": "PNRG",
+        "exchange": "CSE",
+        "website": "https://panam-energy.com/",
+        "ceo": "Mark A. McLeary",
+        "headquarters": "Calgary",
+        "phone": null,
+        "industry": "Other Industrial Metals & Mining",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:57.466416"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.470834"
+    }
+  },
+  {
+    "company_id": "3842",
+    "company_name": "Asra Minerals Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3842",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "8316",
+        "name": "Kookynie East",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -29.446209412,
+          "longitude": 121.42508215,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "31578.190445245100",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Au",
+        "operator": "Asra Minerals Limited",
+        "company_relationships": [
+          {
+            "company_id": "3842",
+            "company_name": "Asra Minerals Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 31947,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3842",
+              "name": "Asra Minerals Limited",
+              "ticker": "ASR",
+              "exchange": "ASX",
+              "website": "https://asraminerals.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.198551"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3842",
+          "name": "Asra Minerals Limited",
+          "ticker": "ASR",
+          "exchange": "ASX",
+          "website": "https://asraminerals.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:58.198551"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/kookynie-east/8316",
+        "created_at": "2025-08-26T15:56:57.446984",
+        "updated_at": "2025-08-26T15:56:58.199050",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3842",
+        "name": "Asra Minerals Limited",
+        "ticker": "ASR",
+        "exchange": "ASX",
+        "website": "https://asraminerals.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:58.198551"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.471291"
+    }
+  },
+  {
+    "company_id": "5082",
+    "company_name": "Anteros Metals Inc.",
+    "company_url": "https://mininghub.com/company-profile?gid=5082",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "9806",
+        "name": "Havens Steady",
+        "location": {
+          "location_string": "Newfoundland and Labrador, Canada",
+          "latitude": 48.513606247,
+          "longitude": -56.590409701,
+          "country": "Canada",
+          "state": "Newfoundland and Labrador",
+          "mineral_district": "Central Newfoundland Gold Belt,Exploits Subzone Belt",
+          "area_m2": "175.1315159768650000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Cu,Pb,Zn,Ag,Au",
+        "operator": "Anteros Metals Inc.",
+        "company_relationships": [
+          {
+            "company_id": "5082",
+            "company_name": "Anteros Metals Inc.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 33844,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "5082",
+              "name": "Anteros Metals Inc.",
+              "ticker": "ANT",
+              "exchange": "CSE",
+              "website": "https://anterosmetals.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.215285"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "5082",
+          "name": "Anteros Metals Inc.",
+          "ticker": "ANT",
+          "exchange": "CSE",
+          "website": "https://anterosmetals.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:58.215285"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/havens-steady/9806",
+        "created_at": "2025-08-26T15:56:57.466712",
+        "updated_at": "2025-08-26T15:56:58.215543",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "5082",
+        "name": "Anteros Metals Inc.",
+        "ticker": "ANT",
+        "exchange": "CSE",
+        "website": "https://anterosmetals.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:58.215285"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.471442"
+    }
+  },
+  {
+    "company_id": "831",
+    "company_name": "Probe Gold Inc.",
+    "company_url": "https://mininghub.com/company-profile?gid=831",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "1843",
+        "name": "Gaudet-Fenelon",
+        "location": {
+          "location_string": "Quebec, Canada",
+          "latitude": 49.955939858,
+          "longitude": -78.671636175,
+          "country": "Canada",
+          "state": "Quebec",
+          "mineral_district": "Detour Lake Camp,Abitibi Greenstone Belt",
+          "area_m2": "5210.6729933570900000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Au",
+        "operator": "Probe Gold Inc.",
+        "company_relationships": [
+          {
+            "company_id": "831",
+            "company_name": "Probe Gold Inc.",
+            "relationship_type": "jv",
+            "percentage": 50,
+            "ownership_id": 9640,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "831",
+              "name": "Probe Gold Inc.",
+              "ticker": "PRB",
+              "exchange": "TSX",
+              "website": "https://probegold.com/",
+              "ceo": "David A.S. Palmer",
+              "headquarters": "Toronto",
+              "phone": null,
+              "industry": "Gold",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.989947"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "812",
+            "company_name": "Midland Exploration Inc.",
+            "relationship_type": "jv",
+            "percentage": 50,
+            "ownership_id": 9641,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "812",
+              "name": "Midland Exploration Inc.",
+              "ticker": "MD",
+              "exchange": "TSXV",
+              "website": "https://midlandexploration.com/en/",
+              "ceo": "Gino Roger",
+              "headquarters": "Montreal",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.989968"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "831",
+          "name": "Probe Gold Inc.",
+          "ticker": "PRB",
+          "exchange": "TSX",
+          "website": "https://probegold.com/",
+          "ceo": "David A.S. Palmer",
+          "headquarters": "Toronto",
+          "phone": null,
+          "industry": "Gold",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:58.989947"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/gaudetfenelon/1843",
+        "created_at": "2025-08-26T15:56:58.198408",
+        "updated_at": "2025-08-26T15:56:58.991272",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "831",
+        "name": "Probe Gold Inc.",
+        "ticker": "PRB",
+        "exchange": "TSX",
+        "website": "https://probegold.com/",
+        "ceo": "David A.S. Palmer",
+        "headquarters": "Toronto",
+        "phone": null,
+        "industry": "Gold",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:58.989947"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.471665"
+    }
+  },
+  {
+    "company_id": "5517",
+    "company_name": "Sugarbowl Copper Ltd.",
+    "company_url": "https://mininghub.com/company-profile?gid=5517",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "10915",
+        "name": "Pet",
+        "location": {
+          "location_string": "British Columbia, Canada",
+          "latitude": 59.939859018,
+          "longitude": -122.949039422,
+          "country": "Canada",
+          "state": "British Columbia",
+          "mineral_district": null,
+          "area_m2": "3130.2358417381100000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Si",
+        "operator": "Power Group Projects Corp.",
+        "company_relationships": [
+          {
+            "company_id": "5517",
+            "company_name": "Sugarbowl Copper Ltd.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 40297,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "5517",
+              "name": "Sugarbowl Copper Ltd.",
+              "ticker": "",
+              "exchange": "",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.989390"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "1644",
+            "company_name": "Power Group Projects Corp.",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 40298,
+            "optionee_id": 1644,
+            "comments": "About the Transaction\nThe capital structure of the Company currently consists of 16,956,056 common shares (each, a\n“PGP Share”). Except for 5,000,000 common share purchase warrants exercisable at a price of\n$0.05 until June 19, 2029, there are no outstanding securities or rights of the Company which are\nconvertible or have the right to acquire PGP Shares. The capital structure of Sugarbowl currently\nconsists of 78,800,000 common shares (each, an “SBC Share”) and an equivalent number of\nshare purchase warrants. Immediately prior to completion of the Transaction, the Company will\nconsolidate (the “Consolidation”) the outstanding PGP Shares on a ten-for-one basis (each postConsolidation PGP Share, a “Resulting Issuer Share”). \nIn consideration for Transaction, the Company will issue 20,000,000 Resulting Issuer Shares and\n10,000,000 share purchase warrants (each, a “Resulting Issuer Warrant”) to the existing share\nand warrant holders of Sugarbowl. Each Resulting Issuer Warrant will entitle the holder to acquire\nan additional Resulting Issuer Share at a price of $0.20 for a period of sixty months following\nissuance.\nUpon completion of the Transaction, it is expected that the Company will change its name and\nreconstitute its board of directors and management of the Company. The Company will provide\nfurther information concerning the proposed new name and directors and officers of the Company\nas soon as it becomes available. ",
+            "company_details": {
+              "id": "1644",
+              "name": "Power Group Projects Corp.",
+              "ticker": "PGP",
+              "exchange": "TSXV",
+              "website": "https://www.powergroupproject.com/",
+              "ceo": "Aleem Nathwani",
+              "headquarters": "Vancouver",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.989433"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "5517",
+            "company_name": "Sugarbowl Copper Ltd.",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 40298,
+            "optionee_id": 1644,
+            "comments": "About the Transaction\nThe capital structure of the Company currently consists of 16,956,056 common shares (each, a\n“PGP Share”). Except for 5,000,000 common share purchase warrants exercisable at a price of\n$0.05 until June 19, 2029, there are no outstanding securities or rights of the Company which are\nconvertible or have the right to acquire PGP Shares. The capital structure of Sugarbowl currently\nconsists of 78,800,000 common shares (each, an “SBC Share”) and an equivalent number of\nshare purchase warrants. Immediately prior to completion of the Transaction, the Company will\nconsolidate (the “Consolidation”) the outstanding PGP Shares on a ten-for-one basis (each postConsolidation PGP Share, a “Resulting Issuer Share”). \nIn consideration for Transaction, the Company will issue 20,000,000 Resulting Issuer Shares and\n10,000,000 share purchase warrants (each, a “Resulting Issuer Warrant”) to the existing share\nand warrant holders of Sugarbowl. Each Resulting Issuer Warrant will entitle the holder to acquire\nan additional Resulting Issuer Share at a price of $0.20 for a period of sixty months following\nissuance.\nUpon completion of the Transaction, it is expected that the Company will change its name and\nreconstitute its board of directors and management of the Company. The Company will provide\nfurther information concerning the proposed new name and directors and officers of the Company\nas soon as it becomes available. ",
+            "company_details": {
+              "id": "5517",
+              "name": "Sugarbowl Copper Ltd.",
+              "ticker": "",
+              "exchange": "",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:58.989439"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "5517",
+          "name": "Sugarbowl Copper Ltd.",
+          "ticker": "",
+          "exchange": "",
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:58.989390"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/pet/10915",
+        "created_at": "2025-08-26T15:56:58.199327",
+        "updated_at": "2025-08-26T15:56:58.997180",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "5517",
+        "name": "Sugarbowl Copper Ltd.",
+        "ticker": "",
+        "exchange": "",
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:58.989390"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.471899"
+    }
+  },
+  {
+    "company_id": "701",
+    "company_name": "Canalaska Uranium Ltd.",
+    "company_url": "https://mininghub.com/company-profile?gid=701",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "6837",
+        "name": "Mouse Mountain",
+        "location": {
+          "location_string": "British Columbia, Canada",
+          "latitude": 53.043789928,
+          "longitude": -122.343195846,
+          "country": "Canada",
+          "state": "British Columbia",
+          "mineral_district": "Quesnellia Terrane (Quesnel Trough Porphyry Belt),Cariboo Gold District",
+          "area_m2": "855.3404757061550000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Cu,Au",
+        "operator": "Canalaska Uranium Ltd.",
+        "company_relationships": [
+          {
+            "company_id": "701",
+            "company_name": "Canalaska Uranium Ltd.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 21502,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "701",
+              "name": "Canalaska Uranium Ltd.",
+              "ticker": "CVV",
+              "exchange": "TSXV",
+              "website": "https://www.canalaska.com/",
+              "ceo": "Cory Belyk",
+              "headquarters": "Vancouver",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:59.748242"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "701",
+          "name": "Canalaska Uranium Ltd.",
+          "ticker": "CVV",
+          "exchange": "TSXV",
+          "website": "https://www.canalaska.com/",
+          "ceo": "Cory Belyk",
+          "headquarters": "Vancouver",
+          "phone": null,
+          "industry": "Other Industrial Metals & Mining",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:59.748242"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/mouse-mountain/6837",
+        "created_at": "2025-08-26T15:56:58.999508",
+        "updated_at": "2025-08-26T15:56:59.748433",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "701",
+        "name": "Canalaska Uranium Ltd.",
+        "ticker": "CVV",
+        "exchange": "TSXV",
+        "website": "https://www.canalaska.com/",
+        "ceo": "Cory Belyk",
+        "headquarters": "Vancouver",
+        "phone": null,
+        "industry": "Other Industrial Metals & Mining",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:59.748242"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.472197"
+    }
+  },
+  {
+    "company_id": "2143",
+    "company_name": "Unknown",
+    "company_url": "https://mininghub.com/company-profile?gid=2143",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "4998",
+        "name": "SourceRock",
+        "location": {
+          "location_string": "Ontario, Canada",
+          "latitude": 49.34319301,
+          "longitude": -88.916869103,
+          "country": "Canada",
+          "state": "Ontario",
+          "mineral_district": null,
+          "area_m2": "93677.113780609900",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Li",
+        "operator": "Metal Energy Corp.",
+        "company_relationships": [
+          {
+            "company_id": "2143",
+            "company_name": "Unknown",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 12257,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2143",
+              "name": "Unknown",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:59.748994"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "1523",
+            "company_name": "Metal Energy Corp.",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 12258,
+            "optionee_id": 1523,
+            "comments": "On June 16, 2023 (the \"Effective Date\"), Metal Energy entered into an Option Agreement with an arms length vendor (the \"Vendor\") to acquire an undivided 100% interest in SourceRock. Upon execution of the Option Agreement, the Company completed a $50,000 cash payment to the Vendor and committed to a staking program valued at greater than $100,000 representing 2,000 claim units registered under the Company.\n\nUnder the remaining terms of the agreement, the Company must issue;\n\na) 3,000,000 common shares of Metal Energy upon acceptance of the Option Agreement by the TSXV;\n\nb) 1,500,000 warrants to the Vendor. Each warrant is exerciseable to acquire one common share of the Company at an exercise price of $0.10 per share. The warrants will expire after 36 months from the Effective Date; and\n\nc) $500,000 worth of common shares on or before the first anniversary of the Effective Date. Such shares will be valued at a price per share equal to the volume weighted trading price of the Company's shares on the TSXV for 20 trading days prior to the issue date of such shares.\n\nAll issued common shares will be subject to such hold periods that are prescribed by applicable securities laws.\n\nMetal Energy will be the operator of the Project and as such will have the rights and responsibility to execute all work programs on the Project.\n\nThe Vendor has retained a 3% net smelter returns royalty (the \"Royalty\") as part of the Option Agreement. The Company has the right to purchase 1% of the Royalty for $500,000 up until the fourth anniversary of the Effective Date. Upon completion of the first 1% of the Royalty, the Company retains the right to purchase the remaining 2% of the Royalty for $5,000,000 up until the tenth anniversary of the Effective Date.",
+            "company_details": {
+              "id": "1523",
+              "name": "Metal Energy Corp.",
+              "ticker": "MERG",
+              "exchange": "TSXV",
+              "website": "https://metalenergy.ca/",
+              "ceo": "James Sykes",
+              "headquarters": "Toronto",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:59.749005"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "2143",
+            "company_name": "Unknown",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 12258,
+            "optionee_id": 1523,
+            "comments": "On June 16, 2023 (the \"Effective Date\"), Metal Energy entered into an Option Agreement with an arms length vendor (the \"Vendor\") to acquire an undivided 100% interest in SourceRock. Upon execution of the Option Agreement, the Company completed a $50,000 cash payment to the Vendor and committed to a staking program valued at greater than $100,000 representing 2,000 claim units registered under the Company.\n\nUnder the remaining terms of the agreement, the Company must issue;\n\na) 3,000,000 common shares of Metal Energy upon acceptance of the Option Agreement by the TSXV;\n\nb) 1,500,000 warrants to the Vendor. Each warrant is exerciseable to acquire one common share of the Company at an exercise price of $0.10 per share. The warrants will expire after 36 months from the Effective Date; and\n\nc) $500,000 worth of common shares on or before the first anniversary of the Effective Date. Such shares will be valued at a price per share equal to the volume weighted trading price of the Company's shares on the TSXV for 20 trading days prior to the issue date of such shares.\n\nAll issued common shares will be subject to such hold periods that are prescribed by applicable securities laws.\n\nMetal Energy will be the operator of the Project and as such will have the rights and responsibility to execute all work programs on the Project.\n\nThe Vendor has retained a 3% net smelter returns royalty (the \"Royalty\") as part of the Option Agreement. The Company has the right to purchase 1% of the Royalty for $500,000 up until the fourth anniversary of the Effective Date. Upon completion of the first 1% of the Royalty, the Company retains the right to purchase the remaining 2% of the Royalty for $5,000,000 up until the tenth anniversary of the Effective Date.",
+            "company_details": {
+              "id": "2143",
+              "name": "Unknown",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:56:59.749011"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2143",
+          "name": "Unknown",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:56:59.748994"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/sourcerock/4998",
+        "created_at": "2025-08-26T15:56:58.998886",
+        "updated_at": "2025-08-26T15:56:59.749406",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2143",
+        "name": "Unknown",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:56:59.748994"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.472365"
+    }
+  },
+  {
+    "company_id": "1930",
+    "company_name": "Buscando Resources Corp.",
+    "company_url": "https://mininghub.com/company-profile?gid=1930",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "10292",
+        "name": "Foggy Mountain",
+        "location": {
+          "location_string": "British Columbia, Canada",
+          "latitude": 57.018508649,
+          "longitude": -126.563650972,
+          "country": "Canada",
+          "state": "British Columbia",
+          "mineral_district": "Golden Horseshoe,Quesnellia Terrane (Quesnel Trough Porphyry Belt),Stikine Terrane,Toodoggone Mining Camp",
+          "area_m2": "4210.0112140162900000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Cu,Ag",
+        "operator": "Buscando Resources Corp.",
+        "company_relationships": [
+          {
+            "company_id": "1930",
+            "company_name": "Buscando Resources Corp.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 36539,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1930",
+              "name": "Buscando Resources Corp.",
+              "ticker": "BRCO",
+              "exchange": "CSE",
+              "website": "https://buscandoresources.com/",
+              "ceo": "",
+              "headquarters": "Vancouver",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:00.488937"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "1930",
+          "name": "Buscando Resources Corp.",
+          "ticker": "BRCO",
+          "exchange": "CSE",
+          "website": "https://buscandoresources.com/",
+          "ceo": "",
+          "headquarters": "Vancouver",
+          "phone": null,
+          "industry": "Other Industrial Metals & Mining",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:00.488937"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/foggy-mountain/10292",
+        "created_at": "2025-08-26T15:56:59.749520",
+        "updated_at": "2025-08-26T15:57:00.489662",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "1930",
+        "name": "Buscando Resources Corp.",
+        "ticker": "BRCO",
+        "exchange": "CSE",
+        "website": "https://buscandoresources.com/",
+        "ceo": "",
+        "headquarters": "Vancouver",
+        "phone": null,
+        "industry": "Other Industrial Metals & Mining",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:00.488937"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.472635"
+    }
+  },
+  {
+    "company_id": "722",
+    "company_name": "Bounty Gold Corp.",
+    "company_url": "https://mininghub.com/company-profile?gid=722",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "4110",
+        "name": "Allison South",
+        "location": {
+          "location_string": "Ontario, Canada",
+          "latitude": 51.001659703,
+          "longitude": -92.2904128,
+          "country": "Canada",
+          "state": "Ontario",
+          "mineral_district": "Birch-Uchi Belt",
+          "area_m2": "1179.8754914371900000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Li",
+        "operator": "Lithium One Metals Inc.",
+        "company_relationships": [
+          {
+            "company_id": "722",
+            "company_name": "Bounty Gold Corp.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 8071,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "722",
+              "name": "Bounty Gold Corp.",
+              "ticker": null,
+              "exchange": null,
+              "website": "https://www.bountygoldcorp.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": "8077283323",
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:00.489589"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "722",
+            "company_name": "Bounty Gold Corp.",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 8072,
+            "optionee_id": 2295,
+            "comments": "",
+            "company_details": {
+              "id": "722",
+              "name": "Bounty Gold Corp.",
+              "ticker": null,
+              "exchange": null,
+              "website": "https://www.bountygoldcorp.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": "8077283323",
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:00.489598"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "2295",
+            "company_name": "Lithium One Metals Inc.",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 8072,
+            "optionee_id": 2295,
+            "comments": "",
+            "company_details": {
+              "id": "2295",
+              "name": "Lithium One Metals Inc.",
+              "ticker": "LONE",
+              "exchange": "TSXV",
+              "website": "https://www.lithiumonemetals.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:00.489604"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "722",
+          "name": "Bounty Gold Corp.",
+          "ticker": null,
+          "exchange": null,
+          "website": "https://www.bountygoldcorp.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": "8077283323",
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:00.489589"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/allison-south/4110",
+        "created_at": "2025-08-26T15:56:59.748943",
+        "updated_at": "2025-08-26T15:57:00.489871",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "722",
+        "name": "Bounty Gold Corp.",
+        "ticker": null,
+        "exchange": null,
+        "website": "https://www.bountygoldcorp.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": "8077283323",
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:00.489589"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.472782"
+    }
+  },
+  {
+    "company_id": "3739",
+    "company_name": "Alligator Energy Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3739",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "9432",
+        "name": "Tin Camp Creek",
+        "location": {
+          "location_string": "Australia",
+          "latitude": -12.46982004,
+          "longitude": 133.30196638,
+          "country": "Australia",
+          "state": "Northern Territory",
+          "mineral_district": null,
+          "area_m2": "29157.303645734000",
+          "geocoded": true,
+          "location_source": "geocode",
+          "postcode": null,
+          "iso3166_2": "AU-NT",
+          "county": null,
+          "territory": "Northern Territory"
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Alligator Energy Limited",
+        "company_relationships": [
+          {
+            "company_id": "3739",
+            "company_name": "Alligator Energy Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 59597,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3739",
+              "name": "Alligator Energy Limited",
+              "ticker": "AGE",
+              "exchange": "ASX",
+              "website": "https://alligatorenergy.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": "[{\"id\":22,\"name\":\"Uranium\",\"alias\":\"uranium\",\"symbol\":\"U\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"}]",
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:01.995642"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3739",
+          "name": "Alligator Energy Limited",
+          "ticker": "AGE",
+          "exchange": "ASX",
+          "website": "https://alligatorenergy.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": "[{\"id\":22,\"name\":\"Uranium\",\"alias\":\"uranium\",\"symbol\":\"U\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"}]",
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:01.995642"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/tin-camp-creek/9432",
+        "created_at": "2025-08-26T15:57:01.249756",
+        "updated_at": "2025-08-26T15:57:02.989921",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3739",
+        "name": "Alligator Energy Limited",
+        "ticker": "AGE",
+        "exchange": "ASX",
+        "website": "https://alligatorenergy.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": "[{\"id\":22,\"name\":\"Uranium\",\"alias\":\"uranium\",\"symbol\":\"U\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"}]",
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:01.995642"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.473191"
+    }
+  },
+  {
+    "company_id": "865",
+    "company_name": "Alamos Gold Inc.",
+    "company_url": "https://mininghub.com/company-profile?gid=865",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "6874",
+        "name": "Matachewan - Wydee",
+        "location": {
+          "location_string": "Ontario, Canada",
+          "latitude": 47.991964363,
+          "longitude": -80.730984877,
+          "country": "Canada",
+          "state": "Ontario",
+          "mineral_district": "Ontario Cobalt Belt,Abitibi Greenstone Belt",
+          "area_m2": "14047.6107517532000000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Au",
+        "operator": "Alamos Gold Inc.",
+        "company_relationships": [
+          {
+            "company_id": "865",
+            "company_name": "Alamos Gold Inc.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 35865,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "865",
+              "name": "Alamos Gold Inc.",
+              "ticker": "AGI",
+              "exchange": "TSX",
+              "website": "https://www.alamosgold.com/",
+              "ceo": "John Mccluskey",
+              "headquarters": "Toronto",
+              "phone": null,
+              "industry": "Gold",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:03.728818"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "918",
+            "company_name": "Agnico Eagle Mines Limited",
+            "relationship_type": "nsr",
+            "percentage": 1,
+            "ownership_id": 35866,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "918",
+              "name": "Agnico Eagle Mines Limited",
+              "ticker": "AEM",
+              "exchange": "TSX",
+              "website": "https://www.agnicoeagle.com",
+              "ceo": "Ammar Al-Joundi",
+              "headquarters": "Toronto",
+              "phone": null,
+              "industry": "Gold",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:03.728826"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "865",
+          "name": "Alamos Gold Inc.",
+          "ticker": "AGI",
+          "exchange": "TSX",
+          "website": "https://www.alamosgold.com/",
+          "ceo": "John Mccluskey",
+          "headquarters": "Toronto",
+          "phone": null,
+          "industry": "Gold",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:03.728818"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/matachewan--wydee/6874",
+        "created_at": "2025-08-26T15:57:02.990134",
+        "updated_at": "2025-08-26T15:57:03.728913",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "865",
+        "name": "Alamos Gold Inc.",
+        "ticker": "AGI",
+        "exchange": "TSX",
+        "website": "https://www.alamosgold.com/",
+        "ceo": "John Mccluskey",
+        "headquarters": "Toronto",
+        "phone": null,
+        "industry": "Gold",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:03.728818"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.473349"
+    }
+  },
+  {
+    "company_id": "3394",
+    "company_name": "Westgold Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3394",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "5969",
+        "name": "Fortnum (Bryah)",
+        "location": {
+          "location_string": "Australia",
+          "latitude": -25.40014149,
+          "longitude": 118.361251599,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "30791.812911299300",
+          "geocoded": true,
+          "location_source": "geocode",
+          "postcode": "6642",
+          "iso3166_2": "AU-WA",
+          "county": null,
+          "territory": null
+        },
+        "stage": "Mining",
+        "commodities": "Au",
+        "operator": "Westgold Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3394",
+            "company_name": "Westgold Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 23384,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3394",
+              "name": "Westgold Resources Limited",
+              "ticker": "WGX",
+              "exchange": "ASX",
+              "website": "https://www.westgold.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:01.981220"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3394",
+          "name": "Westgold Resources Limited",
+          "ticker": "WGX",
+          "exchange": "ASX",
+          "website": "https://www.westgold.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:01.981220"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "api"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/fortnum-bryah/5969",
+        "created_at": "2025-08-26T15:57:00.489981",
+        "updated_at": "2025-08-26T15:57:04.000632",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3394",
+        "name": "Westgold Resources Limited",
+        "ticker": "WGX",
+        "exchange": "ASX",
+        "website": "https://www.westgold.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:01.981220"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.473558"
+    }
+  },
+  {
+    "company_id": "668",
+    "company_name": "St Barbara Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=668",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "1481",
+        "name": "Green Harbour Block",
+        "location": {
+          "location_string": "Nova Scotia, Canada",
+          "latitude": 44.156981776,
+          "longitude": -64.811767403,
+          "country": "Canada",
+          "state": "Nova Scotia",
+          "mineral_district": "Maguma Gold Belt",
+          "area_m2": "70278.164189246400",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Au",
+        "operator": null,
+        "company_relationships": [
+          {
+            "company_id": "668",
+            "company_name": "St Barbara Limited",
+            "relationship_type": "operator",
+            "percentage": null,
+            "ownership_id": null,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "668",
+              "name": "St Barbara Limited",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "scraper",
+              "fetched_at": "2025-08-26T15:57:13.420945"
+            },
+            "data_source": "scraper"
+          }
+        ],
+        "primary_company": {
+          "id": "668",
+          "name": "St Barbara Limited",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "scraper",
+          "fetched_at": "2025-08-26T15:57:13.420945"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/green-harbour-block/1481",
+        "created_at": "2025-08-26T15:56:58.215649",
+        "updated_at": "2025-08-26T15:57:13.421103",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "668",
+        "name": "St Barbara Limited",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "scraper",
+        "fetched_at": "2025-08-26T15:57:13.420945"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.473712"
+    }
+  },
+  {
+    "company_id": "443",
+    "company_name": "Independence Gold Corp.",
+    "company_url": "https://mininghub.com/company-profile?gid=443",
+    "countries": [
+      "Canada"
+    ],
+    "projects": [
+      {
+        "gid": "9",
+        "name": "Nicoamen River",
+        "location": {
+          "location_string": "British Columbia, Canada",
+          "latitude": 50.173417361,
+          "longitude": -121.346168449,
+          "country": "Canada",
+          "state": "British Columbia",
+          "mineral_district": "Spences Bridge Gold Belt,Quesnellia Terrane (Quesnel Trough Porphyry Belt)",
+          "area_m2": "3331.8429969478800000",
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Au",
+        "operator": null,
+        "company_relationships": [
+          {
+            "company_id": "443",
+            "company_name": "Independence Gold Corp.",
+            "relationship_type": "operator",
+            "percentage": null,
+            "ownership_id": null,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "443",
+              "name": "Independence Gold Corp.",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "scraper",
+              "fetched_at": "2025-08-26T15:57:13.474118"
+            },
+            "data_source": "scraper"
+          }
+        ],
+        "primary_company": {
+          "id": "443",
+          "name": "Independence Gold Corp.",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "scraper",
+          "fetched_at": "2025-08-26T15:57:13.474118"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/nicoamen-river/9",
+        "created_at": "2025-08-26T15:56:57.452969",
+        "updated_at": "2025-08-26T15:57:13.474250",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "443",
+        "name": "Independence Gold Corp.",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "scraper",
+        "fetched_at": "2025-08-26T15:57:13.474118"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.473866"
+    }
+  },
+  {
+    "company_id": "4627",
+    "company_name": "Ordell Minerals Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4627",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "17585",
+        "name": "Fisher South",
+        "location": {
+          "location_string": null,
+          "latitude": -27.008406836716517,
+          "longitude": 121.325,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": "6646",
+          "iso3166_2": "AU-WA",
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Gold",
+        "operator": "Ordell Minerals Limited",
+        "company_relationships": [
+          {
+            "company_id": "4627",
+            "company_name": "Ordell Minerals Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 56033,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4627",
+              "name": "Ordell Minerals Limited",
+              "ticker": "ORD",
+              "exchange": "ASX",
+              "website": "https://www.ordellminerals.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:04.459861"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4627",
+          "name": "Ordell Minerals Limited",
+          "ticker": "ORD",
+          "exchange": "ASX",
+          "website": "https://www.ordellminerals.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:04.459861"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/fisher-south/17585",
+        "created_at": "2025-08-26T15:57:19.044520",
+        "updated_at": "2025-08-26T15:57:23.018235",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4627",
+        "name": "Ordell Minerals Limited",
+        "ticker": "ORD",
+        "exchange": "ASX",
+        "website": "https://www.ordellminerals.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:04.459861"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.474018"
+    }
+  },
+  {
+    "company_id": "2239",
+    "company_name": "Nuclear Vision Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=2239",
+    "countries": [
+      "Botswana"
+    ],
+    "projects": [
+      {
+        "gid": "9599",
+        "name": "UA92",
+        "location": {
+          "location_string": null,
+          "latitude": -21.483771168999994,
+          "longitude": 25.878121079000017,
+          "country": "Botswana",
+          "state": "Central District",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "BW-CE",
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "U",
+        "operator": "Nuclear Vision Limited",
+        "company_relationships": [
+          {
+            "company_id": "2239",
+            "company_name": "Nuclear Vision Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 32760,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2239",
+              "name": "Nuclear Vision Limited",
+              "ticker": "NUKV",
+              "exchange": "CSE",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:04.737641"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2239",
+          "name": "Nuclear Vision Limited",
+          "ticker": "NUKV",
+          "exchange": "CSE",
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:04.737641"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/ua92/9599",
+        "created_at": "2025-08-26T15:57:19.406832",
+        "updated_at": "2025-08-26T15:57:24.365184",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2239",
+        "name": "Nuclear Vision Limited",
+        "ticker": "NUKV",
+        "exchange": "CSE",
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:04.737641"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.474169"
+    }
+  },
+  {
+    "company_id": "1224",
+    "company_name": "Compass Minerals Intl Inc",
+    "company_url": "https://mininghub.com/company-profile?gid=1224",
+    "countries": [
+      "United States"
+    ],
+    "projects": [
+      {
+        "gid": "4714",
+        "name": "Ogden",
+        "location": {
+          "location_string": null,
+          "latitude": 41.28707631200002,
+          "longitude": -112.264390434,
+          "country": "United States",
+          "state": "Utah",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "US-UT",
+          "county": "Weber County",
+          "territory": null
+        },
+        "stage": "Mining",
+        "commodities": "Potash (KCl)",
+        "operator": "Compass Minerals Intl Inc",
+        "company_relationships": [
+          {
+            "company_id": "1224",
+            "company_name": "Compass Minerals Intl Inc",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 38219,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1224",
+              "name": "Compass Minerals Intl Inc",
+              "ticker": "CMP",
+              "exchange": "NYSE",
+              "website": "https://www.compassminerals.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:14.164742"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "1224",
+          "name": "Compass Minerals Intl Inc",
+          "ticker": "CMP",
+          "exchange": "NYSE",
+          "website": "https://www.compassminerals.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:14.164742"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/ogden/4714",
+        "created_at": "2025-08-26T15:57:28.913577",
+        "updated_at": "2025-08-26T15:57:32.793700",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "1224",
+        "name": "Compass Minerals Intl Inc",
+        "ticker": "CMP",
+        "exchange": "NYSE",
+        "website": "https://www.compassminerals.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:14.164742"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.474318"
+    }
+  },
+  {
+    "company_id": "3895",
+    "company_name": "BOA Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3895",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "15718",
+        "name": "Mt Carmel",
+        "location": {
+          "location_string": null,
+          "latitude": -21.265156629922753,
+          "longitude": 147.267762,
+          "country": "Australia",
+          "state": "Queensland",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "AU-QLD",
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Gold",
+        "operator": "BOA Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3895",
+            "company_name": "BOA Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 10,
+            "ownership_id": 52299,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3895",
+              "name": "BOA Resources Limited",
+              "ticker": "BOA",
+              "exchange": "ASX",
+              "website": "https://boaresources.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:25.107373"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3895",
+          "name": "BOA Resources Limited",
+          "ticker": "BOA",
+          "exchange": "ASX",
+          "website": "https://boaresources.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:25.107373"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/mt-carmel/15718",
+        "created_at": "2025-08-26T15:57:39.307489",
+        "updated_at": "2025-08-26T15:57:43.273002",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3895",
+        "name": "BOA Resources Limited",
+        "ticker": "BOA",
+        "exchange": "ASX",
+        "website": "https://boaresources.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:25.107373"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.474468"
+    }
+  },
+  {
+    "company_id": "4071",
+    "company_name": "GreenX Metals Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4071",
+    "countries": [],
+    "projects": [
+      {
+        "gid": "15819",
+        "name": "Jan Karski",
+        "location": {
+          "location_string": null,
+          "latitude": null,
+          "longitude": null,
+          "country": null,
+          "state": null,
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Coal",
+        "operator": "GreenX Metals Limited",
+        "company_relationships": [
+          {
+            "company_id": "4071",
+            "company_name": "GreenX Metals Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 52501,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4071",
+              "name": "GreenX Metals Limited",
+              "ticker": "GRX",
+              "exchange": "ASX",
+              "website": "https://www.greenxmetals.com",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:23.764862"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4071",
+          "name": "GreenX Metals Limited",
+          "ticker": "GRX",
+          "exchange": "ASX",
+          "website": "https://www.greenxmetals.com",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:23.764862"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/jan-karski/15819",
+        "created_at": "2025-08-26T15:57:38.120261",
+        "updated_at": "2025-08-26T15:57:44.147898",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4071",
+        "name": "GreenX Metals Limited",
+        "ticker": "GRX",
+        "exchange": "ASX",
+        "website": "https://www.greenxmetals.com",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:23.764862"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.474628"
+    }
+  },
+  {
+    "company_id": "4098",
+    "company_name": "Rokeby Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4098",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "7260",
+        "name": "MaCauley Creek",
+        "location": {
+          "location_string": null,
+          "latitude": -19.198527617823387,
+          "longitude": 145.85110200000003,
+          "country": "Australia",
+          "state": "Queensland",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "AU-QLD",
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Cu, Au, Mo",
+        "operator": "Rokeby Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "4098",
+            "company_name": "Rokeby Resources Limited",
+            "relationship_type": "operator",
+            "percentage": null,
+            "ownership_id": null,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4098",
+              "name": "Rokeby Resources Limited",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "scraper",
+              "fetched_at": "2025-08-26T15:57:28.835740"
+            },
+            "data_source": "scraper"
+          }
+        ],
+        "primary_company": {
+          "id": "4098",
+          "name": "Rokeby Resources Limited",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "scraper",
+          "fetched_at": "2025-08-26T15:57:28.835740"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/macauley-creek/7260",
+        "created_at": "2025-08-26T15:57:43.187980",
+        "updated_at": "2025-08-26T15:57:46.980380",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4098",
+        "name": "Rokeby Resources Limited",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "scraper",
+        "fetched_at": "2025-08-26T15:57:28.835740"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.474775"
+    }
+  },
+  {
+    "company_id": "3753",
+    "company_name": "Helix Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3753",
+    "countries": [],
+    "projects": [
+      {
+        "gid": "17563",
+        "name": "Yanda Creek",
+        "location": {
+          "location_string": null,
+          "latitude": null,
+          "longitude": null,
+          "country": null,
+          "state": null,
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Gold",
+        "operator": "Helix Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3753",
+            "company_name": "Helix Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 55989,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3753",
+              "name": "Helix Resources Limited",
+              "ticker": "HLX",
+              "exchange": "ASX",
+              "website": "https://www.helixresources.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:33.528763"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3753",
+          "name": "Helix Resources Limited",
+          "ticker": "HLX",
+          "exchange": "ASX",
+          "website": "https://www.helixresources.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:33.528763"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/yanda-creek/17563",
+        "created_at": "2025-08-26T15:57:47.961218",
+        "updated_at": "2025-08-26T15:57:53.985763",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3753",
+        "name": "Helix Resources Limited",
+        "ticker": "HLX",
+        "exchange": "ASX",
+        "website": "https://www.helixresources.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:33.528763"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.474992"
+    }
+  },
+  {
+    "company_id": "4252",
+    "company_name": "Parabellum Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4252",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "17777",
+        "name": "Whitbarrow",
+        "location": {
+          "location_string": null,
+          "latitude": -31.583345219347784,
+          "longitude": 146.89166650000004,
+          "country": "Australia",
+          "state": "New South Wales",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": "2825",
+          "iso3166_2": "AU-NSW",
+          "county": "Bogan Shire Council",
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Copper, Nickel, Cobalt, Gold",
+        "operator": "Parabellum Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "4252",
+            "company_name": "Parabellum Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 56417,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4252",
+              "name": "Parabellum Resources Limited",
+              "ticker": "PBL",
+              "exchange": "ASX",
+              "website": "https://www.parabellumresources.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:44.010842"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4252",
+          "name": "Parabellum Resources Limited",
+          "ticker": "PBL",
+          "exchange": "ASX",
+          "website": "https://www.parabellumresources.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:44.010842"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/whitbarrow/17777",
+        "created_at": "2025-08-26T15:57:59.317010",
+        "updated_at": "2025-08-26T15:58:03.216734",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4252",
+        "name": "Parabellum Resources Limited",
+        "ticker": "PBL",
+        "exchange": "ASX",
+        "website": "https://www.parabellumresources.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:44.010842"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.475147"
+    }
+  },
+  {
+    "company_id": "3916",
+    "company_name": "Carawine Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3916",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "15899",
+        "name": "Jamieson",
+        "location": {
+          "location_string": null,
+          "latitude": -37.342017078473766,
+          "longitude": 146.3226180005,
+          "country": "Australia",
+          "state": "Victoria",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "AU-VIC",
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Gold",
+        "operator": "Carawine Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3916",
+            "company_name": "Carawine Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 52661,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3916",
+              "name": "Carawine Resources Limited",
+              "ticker": "CWX",
+              "exchange": "ASX",
+              "website": "https://www.carawine.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:44.887815"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3916",
+          "name": "Carawine Resources Limited",
+          "ticker": "CWX",
+          "exchange": "ASX",
+          "website": "https://www.carawine.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:44.887815"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/jamieson/15899",
+        "created_at": "2025-08-26T15:57:59.249068",
+        "updated_at": "2025-08-26T15:58:04.576838",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3916",
+        "name": "Carawine Resources Limited",
+        "ticker": "CWX",
+        "exchange": "ASX",
+        "website": "https://www.carawine.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:44.887815"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.475301"
+    }
+  },
+  {
+    "company_id": "1543",
+    "company_name": "Mkango Resources Ltd.",
+    "company_url": "https://mininghub.com/company-profile?gid=1543",
+    "countries": [
+      "Poland"
+    ],
+    "projects": [
+      {
+        "gid": "10133",
+        "name": "Pulawy Rare Earth Separation",
+        "location": {
+          "location_string": null,
+          "latitude": 51.46230530800001,
+          "longitude": 21.998687147000016,
+          "country": "Poland",
+          "state": "Lublin Voivodeship",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "PL-06",
+          "county": "Puławy County",
+          "territory": null
+        },
+        "stage": "Refinery",
+        "commodities": "REE",
+        "operator": "Mkango Resources Ltd.",
+        "company_relationships": [
+          {
+            "company_id": "1543",
+            "company_name": "Mkango Resources Ltd.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 35593,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1543",
+              "name": "Mkango Resources Ltd.",
+              "ticker": "MKA",
+              "exchange": "TSXV",
+              "website": "https://mkango.ca/",
+              "ceo": "William Drummond Dawes",
+              "headquarters": "Vancouver",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:47.720086"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "1543",
+          "name": "Mkango Resources Ltd.",
+          "ticker": "MKA",
+          "exchange": "TSXV",
+          "website": "https://mkango.ca/",
+          "ceo": "William Drummond Dawes",
+          "headquarters": "Vancouver",
+          "phone": null,
+          "industry": "Other Industrial Metals & Mining",
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:47.720086"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/pulawy-rare-earth-separation/10133",
+        "created_at": "2025-08-26T15:58:02.045816",
+        "updated_at": "2025-08-26T15:58:05.998252",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "1543",
+        "name": "Mkango Resources Ltd.",
+        "ticker": "MKA",
+        "exchange": "TSXV",
+        "website": "https://mkango.ca/",
+        "ceo": "William Drummond Dawes",
+        "headquarters": "Vancouver",
+        "phone": null,
+        "industry": "Other Industrial Metals & Mining",
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:47.720086"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.475454"
+    }
+  },
+  {
+    "company_id": "5410",
+    "company_name": "Blackhawk Mining LLC",
+    "company_url": "https://mininghub.com/company-profile?gid=5410",
+    "countries": [
+      "United States"
+    ],
+    "projects": [
+      {
+        "gid": "10704",
+        "name": "Blue Diamond Complex",
+        "location": {
+          "location_string": null,
+          "latitude": 37.272066355,
+          "longitude": -83.24281201500003,
+          "country": "United States",
+          "state": "Kentucky",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "US-KY",
+          "county": "Perry County",
+          "territory": null
+        },
+        "stage": "Mining",
+        "commodities": "Coal",
+        "operator": "Blackhawk Mining LLC",
+        "company_relationships": [
+          {
+            "company_id": "5410",
+            "company_name": "Blackhawk Mining LLC",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 38806,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "5410",
+              "name": "Blackhawk Mining LLC",
+              "ticker": "",
+              "exchange": "",
+              "website": "https://blackhawkmining.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:57:54.723117"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "5410",
+          "name": "Blackhawk Mining LLC",
+          "ticker": "",
+          "exchange": "",
+          "website": "https://blackhawkmining.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:57:54.723117"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/blue-diamond-complex/10704",
+        "created_at": "2025-08-26T15:58:08.947470",
+        "updated_at": "2025-08-26T15:58:13.042501",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "5410",
+        "name": "Blackhawk Mining LLC",
+        "ticker": "",
+        "exchange": "",
+        "website": "https://blackhawkmining.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:57:54.723117"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.475608"
+    }
+  },
+  {
+    "company_id": "5497",
+    "company_name": "Ferrite Resources Polska sp. z o.o.",
+    "company_url": "https://mininghub.com/company-profile?gid=5497",
+    "countries": [
+      "Poland"
+    ],
+    "projects": [
+      {
+        "gid": "10894",
+        "name": "Szklary",
+        "location": {
+          "location_string": null,
+          "latitude": 50.644231317,
+          "longitude": 16.833315664999986,
+          "country": "Poland",
+          "state": "Lower Silesian Voivodeship",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "PL-02",
+          "county": "Ząbkowice Śląskie County",
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Ni, Zn, Pb",
+        "operator": "Sulliden Mining Capital Inc.",
+        "company_relationships": [
+          {
+            "company_id": "5497",
+            "company_name": "Ferrite Resources Polska sp. z o.o.",
+            "relationship_type": "jv",
+            "percentage": 52,
+            "ownership_id": 40162,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "5497",
+              "name": "Ferrite Resources Polska sp. z o.o.",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:03.951343"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "1771",
+            "company_name": "Sulliden Mining Capital Inc.",
+            "relationship_type": "jv",
+            "percentage": 48,
+            "ownership_id": 40163,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "1771",
+              "name": "Sulliden Mining Capital Inc.",
+              "ticker": "SMC",
+              "exchange": "TSX",
+              "website": "http://www.sulliden.com",
+              "ceo": "Stan Bharti",
+              "headquarters": "Toronto",
+              "phone": null,
+              "industry": "Other Industrial Metals & Mining",
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:03.951353"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "5497",
+          "name": "Ferrite Resources Polska sp. z o.o.",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:03.951343"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/szklary-/10894",
+        "created_at": "2025-08-26T15:58:18.210336",
+        "updated_at": "2025-08-26T15:58:22.746034",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "5497",
+        "name": "Ferrite Resources Polska sp. z o.o.",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:58:03.951343"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.475757"
+    }
+  },
+  {
+    "company_id": "5503",
+    "company_name": "Kore Potash Plc",
+    "company_url": "https://mininghub.com/company-profile?gid=5503",
+    "countries": [
+      "Congo-Brazzaville"
+    ],
+    "projects": [
+      {
+        "gid": "10903",
+        "name": "Kola",
+        "location": {
+          "location_string": null,
+          "latitude": -4.149281558000015,
+          "longitude": 11.703503668999998,
+          "country": "Congo-Brazzaville",
+          "state": "Kouilou Department",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "CG-5",
+          "county": "Madingo-Kayes",
+          "territory": null
+        },
+        "stage": "Feasibility",
+        "commodities": "Potash (KCl)",
+        "operator": "Kore Potash Plc",
+        "company_relationships": [
+          {
+            "company_id": "5503",
+            "company_name": "Kore Potash Plc",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 40224,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "5503",
+              "name": "Kore Potash Plc",
+              "ticker": "KP2",
+              "exchange": "ASX",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:05.312365"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "5503",
+          "name": "Kore Potash Plc",
+          "ticker": "KP2",
+          "exchange": "ASX",
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:05.312365"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/kola/10903",
+        "created_at": "2025-08-26T15:58:20.242770",
+        "updated_at": "2025-08-26T15:58:24.155252",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "5503",
+        "name": "Kore Potash Plc",
+        "ticker": "KP2",
+        "exchange": "ASX",
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:58:05.312365"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.475966"
+    }
+  },
+  {
+    "company_id": "4305",
+    "company_name": "Renascor Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4305",
+    "countries": [],
+    "projects": [
+      {
+        "gid": "16560",
+        "name": "Malbrom",
+        "location": {
+          "location_string": null,
+          "latitude": null,
+          "longitude": null,
+          "country": null,
+          "state": null,
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": null,
+        "operator": "Renascor Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "4305",
+            "company_name": "Renascor Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 53983,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4305",
+              "name": "Renascor Resources Limited",
+              "ticker": "RNU",
+              "exchange": "ASX",
+              "website": "https://renascor.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:13.780003"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4305",
+          "name": "Renascor Resources Limited",
+          "ticker": "RNU",
+          "exchange": "ASX",
+          "website": "https://renascor.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:13.780003"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/malbrom/16560",
+        "created_at": "2025-08-26T15:58:34.124501",
+        "updated_at": "2025-08-26T15:58:40.210312",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4305",
+        "name": "Renascor Resources Limited",
+        "ticker": "RNU",
+        "exchange": "ASX",
+        "website": "https://renascor.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:58:13.780003"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.476115"
+    }
+  },
+  {
+    "company_id": "4374",
+    "company_name": "Terramin Australia Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=4374",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "7480",
+        "name": "South Gawler Ranges",
+        "location": {
+          "location_string": null,
+          "latitude": -32.44769276238201,
+          "longitude": 135.943036,
+          "country": "Australia",
+          "state": "South Australia",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": null,
+          "iso3166_2": "AU-SA",
+          "county": "Pastoral Unincorporated Area",
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Au, Cu, Ag, Pb, Zn",
+        "operator": "Terramin Australia Limited",
+        "company_relationships": [
+          {
+            "company_id": "4374",
+            "company_name": "Terramin Australia Limited",
+            "relationship_type": "operator",
+            "percentage": null,
+            "ownership_id": null,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4374",
+              "name": "Terramin Australia Limited",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "scraper",
+              "fetched_at": "2025-08-26T15:58:20.978913"
+            },
+            "data_source": "scraper"
+          }
+        ],
+        "primary_company": {
+          "id": "4374",
+          "name": "Terramin Australia Limited",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "scraper",
+          "fetched_at": "2025-08-26T15:58:20.978913"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/south-gawler-ranges/7480",
+        "created_at": "2025-08-26T15:58:36.057549",
+        "updated_at": "2025-08-26T15:58:40.604876",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4374",
+        "name": "Terramin Australia Limited",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "scraper",
+        "fetched_at": "2025-08-26T15:58:20.978913"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.476264"
+    }
+  },
+  {
+    "company_id": "2661",
+    "company_name": "Morella Corporation Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=2661",
+    "countries": [],
+    "projects": [
+      {
+        "gid": "15559",
+        "name": "PT Suryaraya Permata Khatulistiwa",
+        "location": {
+          "location_string": null,
+          "latitude": null,
+          "longitude": null,
+          "country": null,
+          "state": null,
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Coal",
+        "operator": "Morella Corporation Limited",
+        "company_relationships": [
+          {
+            "company_id": "2661",
+            "company_name": "Morella Corporation Limited",
+            "relationship_type": "jv",
+            "percentage": 70,
+            "ownership_id": 51981,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2661",
+              "name": "Morella Corporation Limited",
+              "ticker": "1MC",
+              "exchange": "ASX",
+              "website": "http://www.morellacorp.com",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": "[{\"id\":16,\"name\":\"Rubidium\",\"alias\":\"rubidium\",\"symbol\":\"Rb\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"},{\"id\":8,\"name\":\"Lithium\",\"alias\":\"lithium\",\"symbol\":\"Li\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"}]",
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:23.488890"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2661",
+          "name": "Morella Corporation Limited",
+          "ticker": "1MC",
+          "exchange": "ASX",
+          "website": "http://www.morellacorp.com",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": "[{\"id\":16,\"name\":\"Rubidium\",\"alias\":\"rubidium\",\"symbol\":\"Rb\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"},{\"id\":8,\"name\":\"Lithium\",\"alias\":\"lithium\",\"symbol\":\"Li\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"}]",
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:23.488890"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/pt-suryaraya-permata-khatulistiwa/15559",
+        "created_at": "2025-08-26T15:58:37.962659",
+        "updated_at": "2025-08-26T15:58:43.987405",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2661",
+        "name": "Morella Corporation Limited",
+        "ticker": "1MC",
+        "exchange": "ASX",
+        "website": "http://www.morellacorp.com",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": "[{\"id\":16,\"name\":\"Rubidium\",\"alias\":\"rubidium\",\"symbol\":\"Rb\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"},{\"id\":8,\"name\":\"Lithium\",\"alias\":\"lithium\",\"symbol\":\"Li\",\"active\":true,\"created_at\":\"2025-07-30T03:38:34.606Z\",\"updated_at\":\"2025-07-30T03:38:34.606Z\"}]",
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:58:23.488890"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.476409"
+    }
+  },
+  {
+    "company_id": "4177",
+    "company_name": "Megado Minerals Ltd",
+    "company_url": "https://mininghub.com/company-profile?gid=4177",
+    "countries": [],
+    "projects": [
+      {
+        "gid": "16275",
+        "name": "Babicho",
+        "location": {
+          "location_string": null,
+          "latitude": null,
+          "longitude": null,
+          "country": null,
+          "state": null,
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Gold",
+        "operator": "Megado Minerals Ltd",
+        "company_relationships": [
+          {
+            "company_id": "4177",
+            "company_name": "Megado Minerals Ltd",
+            "relationship_type": "jv",
+            "percentage": 80,
+            "ownership_id": 53413,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4177",
+              "name": "Megado Minerals Ltd",
+              "ticker": "MEG",
+              "exchange": "ASX",
+              "website": "https://megadominerals.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:24.887575"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4177",
+          "name": "Megado Minerals Ltd",
+          "ticker": "MEG",
+          "exchange": "ASX",
+          "website": "https://megadominerals.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:24.887575"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/babicho/16275",
+        "created_at": "2025-08-26T15:58:39.588107",
+        "updated_at": "2025-08-26T15:58:45.612751",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4177",
+        "name": "Megado Minerals Ltd",
+        "ticker": "MEG",
+        "exchange": "ASX",
+        "website": "https://megadominerals.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:58:24.887575"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.476557"
+    }
+  },
+  {
+    "company_id": "2485",
+    "company_name": "Iluka Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=2485",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "13117",
+        "name": "Eneabba",
+        "location": {
+          "location_string": null,
+          "latitude": -29.877599966,
+          "longitude": 115.28540314299998,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": true,
+          "location_source": "scraper_map",
+          "postcode": "6517",
+          "iso3166_2": "AU-WA",
+          "county": null,
+          "territory": null
+        },
+        "stage": "Construction",
+        "commodities": null,
+        "operator": "Iluka Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "2485",
+            "company_name": "Iluka Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 46519,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2485",
+              "name": "Iluka Resources Limited",
+              "ticker": "ILU",
+              "exchange": "ASX",
+              "website": "https://www.iluka.com",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:41.341158"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2485",
+          "name": "Iluka Resources Limited",
+          "ticker": "ILU",
+          "exchange": "ASX",
+          "website": "https://www.iluka.com",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:41.341158"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/eneabba/13117",
+        "created_at": "2025-08-26T15:59:02.709224",
+        "updated_at": "2025-08-26T15:59:08.258559",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2485",
+        "name": "Iluka Resources Limited",
+        "ticker": "ILU",
+        "exchange": "ASX",
+        "website": "https://www.iluka.com",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:58:41.341158"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.476836"
+    }
+  },
+  {
+    "company_id": "4356",
+    "company_name": "Sultan Resources Ltd",
+    "company_url": "https://mininghub.com/company-profile?gid=4356",
+    "countries": [],
+    "projects": [
+      {
+        "gid": "16621",
+        "name": "Kember Lake",
+        "location": {
+          "location_string": null,
+          "latitude": null,
+          "longitude": null,
+          "country": null,
+          "state": null,
+          "mineral_district": null,
+          "area_m2": null,
+          "geocoded": null,
+          "location_source": null,
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Lithium",
+        "operator": "Sultan Resources Ltd",
+        "company_relationships": [
+          {
+            "company_id": "4356",
+            "company_name": "Sultan Resources Ltd",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 54105,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4356",
+              "name": "Sultan Resources Ltd",
+              "ticker": "SLZ",
+              "exchange": "ASX",
+              "website": "http://www.sultanresources.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-08-26T15:58:44.736241"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4356",
+          "name": "Sultan Resources Ltd",
+          "ticker": "SLZ",
+          "exchange": "ASX",
+          "website": "http://www.sultanresources.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-08-26T15:58:44.736241"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "relationships",
+          "scraper"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/kember-lake/16621",
+        "created_at": "2025-08-26T15:59:02.434588",
+        "updated_at": "2025-08-26T15:59:08.458908",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4356",
+        "name": "Sultan Resources Ltd",
+        "ticker": "SLZ",
+        "exchange": "ASX",
+        "website": "http://www.sultanresources.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-08-26T15:58:44.736241"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-08-26T15:59:08.476984"
+    }
+  }
+]
