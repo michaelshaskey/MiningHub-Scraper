@@ -1,0 +1,1223 @@
+[
+  {
+    "company_id": "3330",
+    "company_name": "Infinity Mining Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3330",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "10364",
+        "name": "Chicago",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -28.707130631,
+          "longitude": 121.055119615,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "37.7501102204323000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Evergreen Lithium Limited",
+        "company_relationships": [
+          {
+            "company_id": "3330",
+            "company_name": "Infinity Mining Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 67353,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3330",
+              "name": "Infinity Mining Limited",
+              "ticker": "IMI",
+              "exchange": "ASX",
+              "website": "https://www.infinitymining.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:50.616134"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "4016",
+            "company_name": "Evergreen Lithium Limited",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 67354,
+            "optionee_id": 4016,
+            "comments": "ACQUISITION TERMS\nThe material terms of the share sale agreement (SSA) are as follows:\n• Acquisition: the shareholders of U Resource Pty Ltd (ACN 673 163 598) (URPL) (URPL Sellers) agree to sell\n100% of the issued capital of (URPL Shares) and Evergreen agrees to purchase the URPL Shares. URPL is\nacquiring the Leonora Goldfields Project via a binding Option Agreement from Infinity Mining Limited Ltd\n(ACN 609 482 180) (Infinity) (Option Agreement), whereby URPL has exercised the option to acquire the\nLeonora Goldfields Project and all mining information relating to the project (collectively, the Assets).\n• Conditions Precedent: Settlement under the SSA is subject to and conditional upon the satisfaction (or\nwaiver) of:\no Option Exercise: URPL and Infinity completing the transfer of Assets as contemplated by\nthe Option Agreement so that Evergreen can acquire URPL as the 100% legal and beneficial\nowner of the Assets;\no Due Diligence: completion of financial, legal and technical due diligence by Evergreen on\nURPL and the tenements, to the absolute satisfaction of Evergreen;\no Regulatory approvals: the Parties obtaining all necessary regulatory approvals or waivers\npursuant to the ASX Listing Rules, Corporations Act or any other law to allow the URPL\nSellers and Evergreen to lawfully complete the matters set out in the SSA, including\nconfirmation from ASX that ASX Listing Rule 11.1.3 does not apply to the Acquisition;\no Third party approvals: the URPL Sellers and Evergreen obtaining all third party approvals\nand consents, including the consent of the Minister responsible for the Mining Act 1978\n(WA) (if required), necessary to lawfully complete the matters set out in the SSA; and\no Deeds of assignment and assumption: the URPL Sellers, Evergreen and, if necessary, under\nthe Third Party SSAs, the relevant third party, executing a deed of assignment and\nassumption in relation to each Third Party SSA,\n(Conditions Precedent).\n• Settlement: Settlement will occur on the date that is five business days after the date that the Conditions\nPrecedent are satisfied or such other date as agreed between the parties.\n• Consideration:\no Upfront payment of $100,000 to the vendors for due diligence\no 25,000,000 fully paid ordinary shares in the capital of Evergreen (Shares) at a deemed\nissue price of $0.05 per Share (equivalent to $1,250,000) (the Upfront Consideration);\nEVERGREEN LITHIUM evergreenlithium.com.au\no Subject to the approval of Evergreen’s shareholders, to issue the URPL Sellers in the\nallocations detailed in Schedule 1, $750,000 worth of Shares with an issue price equal to\nthe fourteen (14) day volume weighted average price of the Shares as traded on the\nAustralian Securities Exchange (14-day VWAP) from 11 to 30 April 2025 inclusive with a\nceiling price of $0.065 and a floor price of $0.035 (the Deferred Consideration); and\no Subject to the approval of Evergreen’s shareholders, to issue the URPL Sellers, deferred\nconsideration of $250,000 in Shares based on a 14-day VWAP at the date of a JORC\ncompliant mineral resource estimate of 100,000 ounces of gold has been confirmed and\nannounced on the ASX within three years from the date of this SSA (Milestone) (the\nPerformance Consideration), (together, the Consideration).\no The Upfront and Deferred Consideration will be escrowed from 12 months from the date of\nissue of the Upfront Consideration. ",
+            "company_details": {
+              "id": "4016",
+              "name": "Evergreen Lithium Limited",
+              "ticker": "EG1",
+              "exchange": "ASX",
+              "website": "https://www.evergreenlithium.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:50.616158"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "5284",
+            "company_name": "U Resource Pty Ltd",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 67354,
+            "optionee_id": 4016,
+            "comments": "ACQUISITION TERMS\nThe material terms of the share sale agreement (SSA) are as follows:\n• Acquisition: the shareholders of U Resource Pty Ltd (ACN 673 163 598) (URPL) (URPL Sellers) agree to sell\n100% of the issued capital of (URPL Shares) and Evergreen agrees to purchase the URPL Shares. URPL is\nacquiring the Leonora Goldfields Project via a binding Option Agreement from Infinity Mining Limited Ltd\n(ACN 609 482 180) (Infinity) (Option Agreement), whereby URPL has exercised the option to acquire the\nLeonora Goldfields Project and all mining information relating to the project (collectively, the Assets).\n• Conditions Precedent: Settlement under the SSA is subject to and conditional upon the satisfaction (or\nwaiver) of:\no Option Exercise: URPL and Infinity completing the transfer of Assets as contemplated by\nthe Option Agreement so that Evergreen can acquire URPL as the 100% legal and beneficial\nowner of the Assets;\no Due Diligence: completion of financial, legal and technical due diligence by Evergreen on\nURPL and the tenements, to the absolute satisfaction of Evergreen;\no Regulatory approvals: the Parties obtaining all necessary regulatory approvals or waivers\npursuant to the ASX Listing Rules, Corporations Act or any other law to allow the URPL\nSellers and Evergreen to lawfully complete the matters set out in the SSA, including\nconfirmation from ASX that ASX Listing Rule 11.1.3 does not apply to the Acquisition;\no Third party approvals: the URPL Sellers and Evergreen obtaining all third party approvals\nand consents, including the consent of the Minister responsible for the Mining Act 1978\n(WA) (if required), necessary to lawfully complete the matters set out in the SSA; and\no Deeds of assignment and assumption: the URPL Sellers, Evergreen and, if necessary, under\nthe Third Party SSAs, the relevant third party, executing a deed of assignment and\nassumption in relation to each Third Party SSA,\n(Conditions Precedent).\n• Settlement: Settlement will occur on the date that is five business days after the date that the Conditions\nPrecedent are satisfied or such other date as agreed between the parties.\n• Consideration:\no Upfront payment of $100,000 to the vendors for due diligence\no 25,000,000 fully paid ordinary shares in the capital of Evergreen (Shares) at a deemed\nissue price of $0.05 per Share (equivalent to $1,250,000) (the Upfront Consideration);\nEVERGREEN LITHIUM evergreenlithium.com.au\no Subject to the approval of Evergreen’s shareholders, to issue the URPL Sellers in the\nallocations detailed in Schedule 1, $750,000 worth of Shares with an issue price equal to\nthe fourteen (14) day volume weighted average price of the Shares as traded on the\nAustralian Securities Exchange (14-day VWAP) from 11 to 30 April 2025 inclusive with a\nceiling price of $0.065 and a floor price of $0.035 (the Deferred Consideration); and\no Subject to the approval of Evergreen’s shareholders, to issue the URPL Sellers, deferred\nconsideration of $250,000 in Shares based on a 14-day VWAP at the date of a JORC\ncompliant mineral resource estimate of 100,000 ounces of gold has been confirmed and\nannounced on the ASX within three years from the date of this SSA (Milestone) (the\nPerformance Consideration), (together, the Consideration).\no The Upfront and Deferred Consideration will be escrowed from 12 months from the date of\nissue of the Upfront Consideration. ",
+            "company_details": {
+              "id": "5284",
+              "name": "U Resource Pty Ltd",
+              "ticker": "",
+              "exchange": "",
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:50.616170"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3330",
+          "name": "Infinity Mining Limited",
+          "ticker": "IMI",
+          "exchange": "ASX",
+          "website": "https://www.infinitymining.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:50.616134"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/chicago/10364",
+        "created_at": "2025-09-24T18:10:49.874366",
+        "updated_at": "2025-09-24T18:10:50.616351",
+        "errors": []
+      },
+      {
+        "gid": "5797",
+        "name": "Woody",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -21.6916665,
+          "longitude": 119.1916665,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "322.1292698317620000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Infinity Mining Limited",
+        "company_relationships": [
+          {
+            "company_id": "3330",
+            "company_name": "Infinity Mining Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 69225,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3330",
+              "name": "Infinity Mining Limited",
+              "ticker": "IMI",
+              "exchange": "ASX",
+              "website": "https://www.infinitymining.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:51.321786"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3330",
+          "name": "Infinity Mining Limited",
+          "ticker": "IMI",
+          "exchange": "ASX",
+          "website": "https://www.infinitymining.com.au",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:51.321786"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/woody/5797",
+        "created_at": "2025-09-24T18:10:49.874573",
+        "updated_at": "2025-09-24T18:10:51.322063",
+        "errors": []
+      }
+    ],
+    "total_projects": 2,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3330",
+        "name": "Infinity Mining Limited",
+        "ticker": "IMI",
+        "exchange": "ASX",
+        "website": "https://www.infinitymining.com.au",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:50.616134"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.816706"
+    }
+  },
+  {
+    "company_id": "3674",
+    "company_name": "Tyranna Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3674",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "6725",
+        "name": "Dragon and Knight",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -28.682174587,
+          "longitude": 120.919146071,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "13810.1150061969000000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Ni, Cu, Co, Pt, Pd",
+        "operator": "Tyranna Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3674",
+            "company_name": "Tyranna Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 21010,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3674",
+              "name": "Tyranna Resources Limited",
+              "ticker": "TYX",
+              "exchange": "ASX",
+              "website": "https://www.tyrannaresources.com",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:51.315114"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3674",
+          "name": "Tyranna Resources Limited",
+          "ticker": "TYX",
+          "exchange": "ASX",
+          "website": "https://www.tyrannaresources.com",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:51.315114"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/dragon-and-knight/6725",
+        "created_at": "2025-09-24T18:10:49.874492",
+        "updated_at": "2025-09-24T18:10:51.315332",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3674",
+        "name": "Tyranna Resources Limited",
+        "ticker": "TYX",
+        "exchange": "ASX",
+        "website": "https://www.tyrannaresources.com",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:51.315114"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.817011"
+    }
+  },
+  {
+    "company_id": "4307",
+    "company_name": "Resource Base Limited.",
+    "company_url": "https://mininghub.com/company-profile?gid=4307",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "10310",
+        "name": "Gawler Craton",
+        "location": {
+          "location_string": "South Australia, Australia",
+          "latitude": -30.620149959,
+          "longitude": 134.517133871,
+          "country": "Australia",
+          "state": "South Australia",
+          "mineral_district": null,
+          "area_m2": "9715.2834871311100000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Resource Base Limited.",
+        "company_relationships": [
+          {
+            "company_id": "4307",
+            "company_name": "Resource Base Limited.",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 72111,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "4307",
+              "name": "Resource Base Limited.",
+              "ticker": "RBX",
+              "exchange": "ASX",
+              "website": "https://resourcebase.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:51.337761"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "4307",
+          "name": "Resource Base Limited.",
+          "ticker": "RBX",
+          "exchange": "ASX",
+          "website": "https://resourcebase.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:51.337761"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/el-7060/10310",
+        "created_at": "2025-09-24T18:10:49.874650",
+        "updated_at": "2025-09-24T18:10:51.337920",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "4307",
+        "name": "Resource Base Limited.",
+        "ticker": "RBX",
+        "exchange": "ASX",
+        "website": "https://resourcebase.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:51.337761"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.817312"
+    }
+  },
+  {
+    "company_id": "2143",
+    "company_name": "Unknown",
+    "company_url": "https://mininghub.com/company-profile?gid=2143",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "8316",
+        "name": "Leonora South - Kookynie East",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -29.446209412,
+          "longitude": 121.42508215,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "31578.190445245100",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "GoldArc Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "2143",
+            "company_name": "Unknown",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 62638,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2143",
+              "name": "Unknown",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:51.364361"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "3842",
+            "company_name": "GoldArc Resources Limited",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 62639,
+            "optionee_id": 3842,
+            "comments": "Asra Minerals has entered into a binding agreement to acquire a 70% interest of the Kookynie East Gold Project.\nThe acquisition is subject to completion of the cash and shares consideration payments. Refer ASX announcement\ndated 28 May 2024 for the details of the acquisition.",
+            "company_details": {
+              "id": "3842",
+              "name": "GoldArc Resources Limited",
+              "ticker": "GA8",
+              "exchange": "ASX",
+              "website": "https://asraminerals.com.au",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:51.364378"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "2143",
+            "company_name": "Unknown",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 62639,
+            "optionee_id": 3842,
+            "comments": "Asra Minerals has entered into a binding agreement to acquire a 70% interest of the Kookynie East Gold Project.\nThe acquisition is subject to completion of the cash and shares consideration payments. Refer ASX announcement\ndated 28 May 2024 for the details of the acquisition.",
+            "company_details": {
+              "id": "2143",
+              "name": "Unknown",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:51.364386"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "2143",
+          "name": "Unknown",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:51.364361"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/kookynie-east/8316",
+        "created_at": "2025-09-24T18:10:50.616479",
+        "updated_at": "2025-09-24T18:10:51.364519",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "2143",
+        "name": "Unknown",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:51.364361"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.817469"
+    }
+  },
+  {
+    "company_id": "3852",
+    "company_name": "Auric Mining Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3852",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "6863",
+        "name": "Jeffreys Find",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -31.946634653,
+          "longitude": 122.149207933,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "128.5710794667840000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "Auric Mining Limited",
+        "company_relationships": [
+          {
+            "company_id": "3852",
+            "company_name": "Auric Mining Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 60845,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3852",
+              "name": "Auric Mining Limited",
+              "ticker": "AWJ",
+              "exchange": "ASX",
+              "website": "https://auricmining.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.062302"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3852",
+          "name": "Auric Mining Limited",
+          "ticker": "AWJ",
+          "exchange": "ASX",
+          "website": "https://auricmining.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:52.062302"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/jeffreys-find/6863",
+        "created_at": "2025-09-24T18:10:51.315439",
+        "updated_at": "2025-09-24T18:10:52.063827",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3852",
+        "name": "Auric Mining Limited",
+        "ticker": "AWJ",
+        "exchange": "ASX",
+        "website": "https://auricmining.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:52.062302"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.818816"
+    }
+  },
+  {
+    "company_id": "3239",
+    "company_name": "Power Metal Resources",
+    "company_url": "https://mininghub.com/company-profile?gid=3239",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "5627",
+        "name": "Ripon Hills",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -21.188333333,
+          "longitude": 120.795,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "4790.4359301790200000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Early Stage",
+        "commodities": "Au,Cu",
+        "operator": "First Development Resources",
+        "company_relationships": [
+          {
+            "company_id": "3239",
+            "company_name": "Power Metal Resources",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 15720,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3239",
+              "name": "Power Metal Resources",
+              "ticker": null,
+              "exchange": null,
+              "website": "https://www.powermetalresources.com/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.064916"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3239",
+          "name": "Power Metal Resources",
+          "ticker": null,
+          "exchange": null,
+          "website": "https://www.powermetalresources.com/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:52.064916"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/ripon-hills/5627",
+        "created_at": "2025-09-24T18:10:51.322318",
+        "updated_at": "2025-09-24T18:10:52.065041",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3239",
+        "name": "Power Metal Resources",
+        "ticker": null,
+        "exchange": null,
+        "website": "https://www.powermetalresources.com/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:52.064916"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.819186"
+    }
+  },
+  {
+    "company_id": "3261",
+    "company_name": "Empire Metals Ltd.",
+    "company_url": "https://mininghub.com/company-profile?gid=3261",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "5648",
+        "name": "Eclipse-Gindalbie",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -30.320859537,
+          "longitude": 121.751815921,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "0.000000000000000000000000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Advanced Exploration",
+        "commodities": "Au",
+        "operator": "Empire Metals Ltd.",
+        "company_relationships": [
+          {
+            "company_id": "3261",
+            "company_name": "Empire Metals Ltd.",
+            "relationship_type": "jv",
+            "percentage": 75,
+            "ownership_id": 15776,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3261",
+              "name": "Empire Metals Ltd.",
+              "ticker": "EPMLF",
+              "exchange": "OTCQX",
+              "website": "https://www.empiremetals.co.uk/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.082582"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "2143",
+            "company_name": "Unknown",
+            "relationship_type": "jv",
+            "percentage": 25,
+            "ownership_id": 15777,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "2143",
+              "name": "Unknown",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.082717"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3261",
+          "name": "Empire Metals Ltd.",
+          "ticker": "EPMLF",
+          "exchange": "OTCQX",
+          "website": "https://www.empiremetals.co.uk/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:52.082582"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/eclipsegindalbie/5648",
+        "created_at": "2025-09-24T18:10:51.338033",
+        "updated_at": "2025-09-24T18:10:52.083266",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3261",
+        "name": "Empire Metals Ltd.",
+        "ticker": "EPMLF",
+        "exchange": "OTCQX",
+        "website": "https://www.empiremetals.co.uk/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:52.082582"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.819363"
+    }
+  },
+  {
+    "company_id": "3307",
+    "company_name": "Black Raven Mining Pty Ltd",
+    "company_url": "https://mininghub.com/company-profile?gid=3307",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "5720",
+        "name": "Jillewarra",
+        "location": {
+          "location_string": "Western Australia, Australia",
+          "latitude": -26.47164767,
+          "longitude": 117.997790829,
+          "country": "Australia",
+          "state": "Western Australia",
+          "mineral_district": null,
+          "area_m2": "60395.344322652600",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": null,
+        "commodities": null,
+        "operator": "S2 Resources Ltd",
+        "company_relationships": [
+          {
+            "company_id": "3307",
+            "company_name": "Black Raven Mining Pty Ltd",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 73047,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3307",
+              "name": "Black Raven Mining Pty Ltd",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.110769"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "3283",
+            "company_name": "S2 Resources Ltd",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 73048,
+            "optionee_id": 3283,
+            "comments": "In October 2020, S2 entered into a binding agreement with private company Black Raven Mining Pty Ltd to earn a majority interest in a group of tenements known as the Jillewarra project, located approximately 50 kilometres west-northwest of Meekatharra in the Murchison goldfields of Western Australia.  Under the agreement, S2 can earn up to 70% of the project by spending A$5m over five years.",
+            "company_details": {
+              "id": "3283",
+              "name": "S2 Resources Ltd",
+              "ticker": "S2R",
+              "exchange": "ASX",
+              "website": "https://www.s2resources.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.110789"
+            },
+            "data_source": "relationships"
+          },
+          {
+            "company_id": "3307",
+            "company_name": "Black Raven Mining Pty Ltd",
+            "relationship_type": "option",
+            "percentage": null,
+            "ownership_id": 73048,
+            "optionee_id": 3283,
+            "comments": "In October 2020, S2 entered into a binding agreement with private company Black Raven Mining Pty Ltd to earn a majority interest in a group of tenements known as the Jillewarra project, located approximately 50 kilometres west-northwest of Meekatharra in the Murchison goldfields of Western Australia.  Under the agreement, S2 can earn up to 70% of the project by spending A$5m over five years.",
+            "company_details": {
+              "id": "3307",
+              "name": "Black Raven Mining Pty Ltd",
+              "ticker": null,
+              "exchange": null,
+              "website": null,
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.110799"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3307",
+          "name": "Black Raven Mining Pty Ltd",
+          "ticker": null,
+          "exchange": null,
+          "website": null,
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:52.110769"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/jillewarra/5720",
+        "created_at": "2025-09-24T18:10:51.364761",
+        "updated_at": "2025-09-24T18:10:52.110957",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3307",
+        "name": "Black Raven Mining Pty Ltd",
+        "ticker": null,
+        "exchange": null,
+        "website": null,
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:52.110769"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.819651"
+    }
+  },
+  {
+    "company_id": "3767",
+    "company_name": "Strategic Energy Resources Limited",
+    "company_url": "https://mininghub.com/company-profile?gid=3767",
+    "countries": [
+      "Australia"
+    ],
+    "projects": [
+      {
+        "gid": "10033",
+        "name": "Bulimba",
+        "location": {
+          "location_string": "Queensland, Australia",
+          "latitude": -16.766390332,
+          "longitude": 143.849044764,
+          "country": "Australia",
+          "state": "Queensland",
+          "mineral_district": null,
+          "area_m2": "131245.685951881000",
+          "geocoded": null,
+          "location_source": "api",
+          "postcode": null,
+          "iso3166_2": null,
+          "county": null,
+          "territory": null
+        },
+        "stage": "Exploration",
+        "commodities": "Au",
+        "operator": "Strategic Energy Resources Limited",
+        "company_relationships": [
+          {
+            "company_id": "3767",
+            "company_name": "Strategic Energy Resources Limited",
+            "relationship_type": "jv",
+            "percentage": 100,
+            "ownership_id": 35098,
+            "optionee_id": null,
+            "comments": null,
+            "company_details": {
+              "id": "3767",
+              "name": "Strategic Energy Resources Limited",
+              "ticker": "SER",
+              "exchange": "ASX",
+              "website": "https://strategicenergy.com.au/",
+              "ceo": null,
+              "headquarters": null,
+              "phone": null,
+              "industry": null,
+              "sector": null,
+              "ownership_percentage": null,
+              "relationship_type": null,
+              "data_source": "relationships",
+              "fetched_at": "2025-09-24T18:10:52.809689"
+            },
+            "data_source": "relationships"
+          }
+        ],
+        "primary_company": {
+          "id": "3767",
+          "name": "Strategic Energy Resources Limited",
+          "ticker": "SER",
+          "exchange": "ASX",
+          "website": "https://strategicenergy.com.au/",
+          "ceo": null,
+          "headquarters": null,
+          "phone": null,
+          "industry": null,
+          "sector": null,
+          "ownership_percentage": null,
+          "relationship_type": null,
+          "data_source": "relationships",
+          "fetched_at": "2025-09-24T18:10:52.809689"
+        },
+        "stakeholders": [],
+        "data_sources": [
+          "api",
+          "relationships"
+        ],
+        "processing_stage": "completed",
+        "project_url": "https://mininghub.com/project/bulimba/10033",
+        "created_at": "2025-09-24T18:10:52.064285",
+        "updated_at": "2025-09-24T18:10:52.810103",
+        "errors": []
+      }
+    ],
+    "total_projects": 1,
+    "additional_company_data": {
+      "company_info": {
+        "id": "3767",
+        "name": "Strategic Energy Resources Limited",
+        "ticker": "SER",
+        "exchange": "ASX",
+        "website": "https://strategicenergy.com.au/",
+        "ceo": null,
+        "headquarters": null,
+        "phone": null,
+        "industry": null,
+        "sector": null,
+        "ownership_percentage": null,
+        "relationship_type": null,
+        "data_source": "relationships",
+        "fetched_at": "2025-09-24T18:10:52.809689"
+      },
+      "enrichment_source": "new_architecture",
+      "api_response_timestamp": "2025-09-24T18:10:52.819974"
+    }
+  }
+]
