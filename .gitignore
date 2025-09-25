@@ -115,6 +115,7 @@ debug/
 
 # Large data files (keep samples but ignore full datasets)
 *.log
+logs/
 *.tmp
 
 # Chrome/Selenium temporary files

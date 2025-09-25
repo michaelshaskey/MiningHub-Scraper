@@ -16,11 +16,46 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configure structured logging (Factor 11: Logs)
-logging.basicConfig(
-    level=os.getenv('LOG_LEVEL', 'INFO'),
-    format='{"timestamp": "%(asctime)s", "level": "%(levelname)s", "message": "%(message)s", "module": "%(name)s"}',
-    handlers=[logging.StreamHandler(sys.stdout)]  # Logs as event streams
-)
+def setup_logging():
+    """Setup logging with both file and console handlers."""
+    # Create logs directory
+    logs_dir = os.path.join(os.getcwd(), 'logs')
+    os.makedirs(logs_dir, exist_ok=True)
+    
+    # Generate timestamped log filename
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_filename = os.path.join(logs_dir, f'mininghub_processor_{timestamp}.log')
+    
+    # Configure logging format
+    log_format = '{"timestamp": "%(asctime)s", "level": "%(levelname)s", "message": "%(message)s", "module": "%(name)s"}'
+    
+    # Create handlers
+    handlers = []
+    
+    # File handler - always enabled
+    file_handler = logging.FileHandler(log_filename, encoding='utf-8')
+    file_handler.setFormatter(logging.Formatter(log_format))
+    handlers.append(file_handler)
+    
+    # Console handler - optional based on environment
+    if os.getenv('LOG_TO_CONSOLE', 'true').lower() == 'true':
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setFormatter(logging.Formatter(log_format))
+        handlers.append(console_handler)
+    
+    # Configure root logger
+    logging.basicConfig(
+        level=os.getenv('LOG_LEVEL', 'INFO'),
+        format=log_format,
+        handlers=handlers,
+        force=True  # Override any existing configuration
+    )
+    
+    return log_filename
+
+# Setup logging and get log filename
+log_file_path = setup_logging()
 logger = logging.getLogger(__name__)
 
 
@@ -100,7 +135,8 @@ class Application:
         logger.info("Application initialized", extra={
             "environment": config.environment,
             "mode": config.mode,
-            "max_projects": config.max_projects
+            "max_projects": config.max_projects,
+            "log_file": log_file_path
         })
     
     def _shutdown_handler(self, signum, frame):

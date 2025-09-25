@@ -86,6 +86,7 @@ JWT_TOKEN=your_jwt_token_here
 PROCESSING_MODE=test|production  # test = limited scope, production = all countries
 BATCH_SIZE=100                   # Projects per batch (optimized)
 LOG_LEVEL=INFO                   # DEBUG|INFO|WARNING
+LOG_TO_CONSOLE=true              # Also log to console (default: true)
 
 # API Settings
 API_BASE_URL=https://mininghub.com/api
@@ -200,6 +201,6 @@ python3 simple_dependency_tracer.py
 - **Inputs**: `countries.json`, `found_urls.xlsx` (required)
 - **Outputs**: Timestamped JSON/Excel files in `outputs/`
 - **Cache**: `outputs/cache/geocoding_cache.json` (auto-regenerated)
-- **Logs**: Structured JSON to stdout (no file logging)
+- **Logs**: Structured JSON to timestamped log files in `logs/` directory + optional console output
 
 This system is now optimized for cloud deployment with proper dependency management, configuration via environment variables, and significant size reduction while maintaining full functionality.

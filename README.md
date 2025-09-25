@@ -140,6 +140,7 @@ JWT_TOKEN=your_mininghub_jwt_token_here
 PROCESSING_MODE=test              # test|production
 BATCH_SIZE=100                    # Projects per batch (optimized)
 LOG_LEVEL=INFO                    # DEBUG|INFO|WARNING
+LOG_TO_CONSOLE=true               # Also log to console (default: true)
 
 # API Configuration
 API_BASE_URL=https://mininghub.com/api
@@ -262,10 +263,11 @@ ENABLE_GEOCODING=false python3 app.py
 - **Processing Speed**: 0.04-0.16 projects/second per worker
 
 ### **Built-in Monitoring**
-- **Structured Logging**: JSON format for log aggregation
+- **Structured Logging**: JSON format saved to timestamped files in `logs/` directory
 - **Health Checks**: `/health` endpoint for load balancers
 - **Progress Tracking**: Real-time batch processing updates
 - **Error Tracking**: Categorized failure analysis
+- **Log Files**: `logs/mininghub_processor_YYYYMMDD_HHMMSS.log` (auto-created)
 
 ## 🚀 Cloud Deployment
 
